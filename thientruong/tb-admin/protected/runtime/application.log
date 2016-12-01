@@ -1,0 +1,757 @@
+2016/11/18 23:16:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/menu/update/1.html
+---
+2016/11/18 23:16:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Menu/admin.html
+---
+2016/11/18 23:16:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/menu/update/2.html
+---
+2016/11/18 23:16:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Menu/admin.html
+---
+2016/11/18 23:16:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/menu/update/5.html
+---
+2016/11/18 23:16:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Menu/admin.html
+---
+2016/11/18 23:17:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Pages/default/admin
+---
+2016/11/18 23:17:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Pages/default/update/id/1
+---
+2016/11/18 23:17:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Pages/default/admin
+---
+2016/11/18 23:17:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Pages/default/update/id/4
+---
+2016/11/18 23:17:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Products/default/admin
+---
+2016/11/18 23:17:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Products/Categoriesp/admin
+---
+2016/11/18 23:17:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/54df5a44122345.jpg".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/54df5a4...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/uploads/54df5a44122345.jpg
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Products/Categoriesp/admin
+---
+2016/11/18 23:17:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Block/admin.html
+---
+2016/11/18 23:17:29 [error] [exception.CException] exception 'CException' with message 'Alias "ckeditor.CKEditor" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/smstanan/public_html/thientruong/yii/framework/YiiBase.php:322
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWidgetFactory.php(146): YiiBase::import('ckeditor.CKEdit...', true)
+#1 /home/smstanan/public_html/thientruong/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(BlockController), 'ckeditor.CKEdit...', Array)
+#2 /home/smstanan/public_html/thientruong/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('ckeditor.CKEdit...', Array)
+#3 /home/smstanan/public_html/thientruong/tb-admin/protected/views/block/_form.php(34): CBaseController->widget('ckeditor.CKEdit...', Array)
+#4 /home/smstanan/public_html/thientruong/yii/framework/web/CBaseController.php(126): require('/home/smstanan/...')
+#5 /home/smstanan/public_html/thientruong/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/smstanan/...', Array, true)
+#6 /home/smstanan/public_html/thientruong/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/smstanan/...', Array, true)
+#7 /home/smstanan/public_html/thientruong/tb-admin/protected/views/block/update.php(21): CController->renderPartial('_form', Array)
+#8 /home/smstanan/public_html/thientruong/yii/framework/web/CBaseController.php(126): require('/home/smstanan/...')
+#9 /home/smstanan/public_html/thientruong/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/smstanan/...', Array, true)
+#10 /home/smstanan/public_html/thientruong/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/smstanan/...', Array, true)
+#11 /home/smstanan/public_html/thientruong/yii/framework/web/CController.php(782): CController->renderPartial('update', Array, true)
+#12 /home/smstanan/public_html/thientruong/tb-admin/protected/controllers/BlockController.php(123): CController->render('update', Array)
+#13 [internal function]: BlockController->actionUpdate('1')
+#14 /home/smstanan/public_html/thientruong/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(BlockController), Array)
+#15 /home/smstanan/public_html/thientruong/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(BlockController), Object(ReflectionMethod), Array)
+#16 /home/smstanan/public_html/thientruong/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /home/smstanan/public_html/thientruong/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /home/smstanan/public_html/thientruong/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /home/smstanan/public_html/thientruong/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /home/smstanan/public_html/thientruong/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /home/smstanan/public_html/thientruong/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /home/smstanan/public_html/thientruong/yii/framework/web/CController.php(291): CFilterChain->run()
+#23 /home/smstanan/public_html/thientruong/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#25 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('block/update')
+#26 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#27 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#28 {main}
+REQUEST_URI=/tb-admin/block/update/1.html
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Block/admin.html
+---
+2016/11/18 23:17:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Block/admin.html
+---
+2016/11/18 23:17:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Members/default/index
+---
+2016/11/18 23:17:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/
+---
+2016/11/18 23:19:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/
+---
+2016/11/18 23:19:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Menu/admin.html
+---
+2016/11/18 23:19:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/menu/update/1.html
+---
+2016/11/18 23:19:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/
+---
+2016/11/18 23:19:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Products/default/admin
+---
+2016/11/18 23:19:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Products/Categoriesp/admin
+---
+2016/11/18 23:19:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/54df5a44122345.jpg".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/54df5a4...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/uploads/54df5a44122345.jpg
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Products/Categoriesp/admin
+---
+2016/11/18 23:19:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Products/Categoriesp/admin
+---
+2016/11/18 23:19:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/54df5a44122345.jpg".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/54df5a4...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/uploads/54df5a44122345.jpg
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Products/Categoriesp/admin
+---
+2016/11/18 23:19:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Products/default/admin
+---
+2016/11/18 23:19:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Block/admin.html
+---
+2016/11/18 23:20:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Pages/default/admin
+---
+2016/11/18 23:20:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Pages/default/update/id/1
+---
+2016/11/18 23:20:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Pages/default/admin
+---
+2016/11/18 23:20:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Pages/default/update/id/4
+---
+2016/11/18 23:20:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/
+---
+2016/11/18 23:20:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Menu/admin.html
+---
+2016/11/18 23:20:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Menu/admin.html
+---
+2016/11/18 23:20:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Pages/default/admin
+---
+2016/11/18 23:20:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Products/default/admin
+---
+2016/11/18 23:20:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Products/default/create
+---
+2016/11/18 23:20:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Products/Categoriesp/admin
+---
+2016/11/18 23:20:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/54df5a44122345.jpg".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/54df5a4...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/uploads/54df5a44122345.jpg
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Products/Categoriesp/admin
+---
+2016/11/18 23:20:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Products/categoriesp/update/id/4
+---
+2016/11/18 23:20:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Block/admin.html
+---
+2016/11/18 23:21:01 [error] [exception.CException] exception 'CException' with message 'Alias "ckeditor.CKEditor" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/smstanan/public_html/thientruong/yii/framework/YiiBase.php:322
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWidgetFactory.php(146): YiiBase::import('ckeditor.CKEdit...', true)
+#1 /home/smstanan/public_html/thientruong/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(BlockController), 'ckeditor.CKEdit...', Array)
+#2 /home/smstanan/public_html/thientruong/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('ckeditor.CKEdit...', Array)
+#3 /home/smstanan/public_html/thientruong/tb-admin/protected/views/block/_form.php(34): CBaseController->widget('ckeditor.CKEdit...', Array)
+#4 /home/smstanan/public_html/thientruong/yii/framework/web/CBaseController.php(126): require('/home/smstanan/...')
+#5 /home/smstanan/public_html/thientruong/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/smstanan/...', Array, true)
+#6 /home/smstanan/public_html/thientruong/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/smstanan/...', Array, true)
+#7 /home/smstanan/public_html/thientruong/tb-admin/protected/views/block/update.php(21): CController->renderPartial('_form', Array)
+#8 /home/smstanan/public_html/thientruong/yii/framework/web/CBaseController.php(126): require('/home/smstanan/...')
+#9 /home/smstanan/public_html/thientruong/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/smstanan/...', Array, true)
+#10 /home/smstanan/public_html/thientruong/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/smstanan/...', Array, true)
+#11 /home/smstanan/public_html/thientruong/yii/framework/web/CController.php(782): CController->renderPartial('update', Array, true)
+#12 /home/smstanan/public_html/thientruong/tb-admin/protected/controllers/BlockController.php(123): CController->render('update', Array)
+#13 [internal function]: BlockController->actionUpdate('1')
+#14 /home/smstanan/public_html/thientruong/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(BlockController), Array)
+#15 /home/smstanan/public_html/thientruong/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(BlockController), Object(ReflectionMethod), Array)
+#16 /home/smstanan/public_html/thientruong/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /home/smstanan/public_html/thientruong/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /home/smstanan/public_html/thientruong/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /home/smstanan/public_html/thientruong/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /home/smstanan/public_html/thientruong/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /home/smstanan/public_html/thientruong/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /home/smstanan/public_html/thientruong/yii/framework/web/CController.php(291): CFilterChain->run()
+#23 /home/smstanan/public_html/thientruong/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#25 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('block/update')
+#26 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#27 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#28 {main}
+REQUEST_URI=/tb-admin/block/update/1.html
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Block/admin.html
+---
+2016/11/18 23:21:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Block/admin.html
+---
+2016/11/18 23:21:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/
+---
+2016/11/18 23:26:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/54df5a44122345.jpg".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/54df5a4...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/uploads/54df5a44122345.jpg
+HTTP_REFERER=http://thientruonglong.com/
+---
+2016/11/18 23:38:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/54df5a44122345.jpg".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/54df5a4...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/uploads/54df5a44122345.jpg
+HTTP_REFERER=http://thientruonglong.com/
+---
+2016/11/18 23:48:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/54df5a44122345.jpg".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/54df5a4...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/uploads/54df5a44122345.jpg
+HTTP_REFERER=http://thientruonglong.com/
+---
+2016/11/18 23:56:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/54df5a44122345.jpg".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/54df5a4...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/uploads/54df5a44122345.jpg
+HTTP_REFERER=http://thientruonglong.com/
+---
+2016/11/19 00:03:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/54df5a44122345.jpg".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/54df5a4...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/uploads/54df5a44122345.jpg
+HTTP_REFERER=http://thientruonglong.com/
+---
+2016/11/19 00:07:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/54df5a44122345.jpg".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/54df5a4...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/uploads/54df5a44122345.jpg
+---
+2016/11/19 00:07:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/54df5a44122345.jpg".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/54df5a4...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/uploads/54df5a44122345.jpg
+---
+2016/11/19 00:22:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/
+---
+2016/11/19 00:22:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Menu/admin.html
+---
+2016/11/19 00:22:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/menu/update/1.html
+---
+2016/11/19 00:22:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Menu/admin.html
+---
+2016/11/19 00:22:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/menu/update/5.html
+---
+2016/11/19 00:22:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Menu/admin.html
+---
+2016/11/19 00:22:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/menu/update/2.html
+---
+2016/11/19 00:22:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/menu/admin.html
+---
+2016/11/19 00:22:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Members/default/index
+---
+2016/11/19 00:22:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Block/admin.html
+---
+2016/11/19 00:22:55 [error] [exception.CException] exception 'CException' with message 'Alias "ckeditor.CKEditor" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /home/smstanan/public_html/thientruong/yii/framework/YiiBase.php:322
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWidgetFactory.php(146): YiiBase::import('ckeditor.CKEdit...', true)
+#1 /home/smstanan/public_html/thientruong/yii/framework/web/CBaseController.php(146): CWidgetFactory->createWidget(Object(BlockController), 'ckeditor.CKEdit...', Array)
+#2 /home/smstanan/public_html/thientruong/yii/framework/web/CBaseController.php(172): CBaseController->createWidget('ckeditor.CKEdit...', Array)
+#3 /home/smstanan/public_html/thientruong/tb-admin/protected/views/block/_form.php(34): CBaseController->widget('ckeditor.CKEdit...', Array)
+#4 /home/smstanan/public_html/thientruong/yii/framework/web/CBaseController.php(126): require('/home/smstanan/...')
+#5 /home/smstanan/public_html/thientruong/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/smstanan/...', Array, true)
+#6 /home/smstanan/public_html/thientruong/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/smstanan/...', Array, true)
+#7 /home/smstanan/public_html/thientruong/tb-admin/protected/views/block/update.php(21): CController->renderPartial('_form', Array)
+#8 /home/smstanan/public_html/thientruong/yii/framework/web/CBaseController.php(126): require('/home/smstanan/...')
+#9 /home/smstanan/public_html/thientruong/yii/framework/web/CBaseController.php(95): CBaseController->renderInternal('/home/smstanan/...', Array, true)
+#10 /home/smstanan/public_html/thientruong/yii/framework/web/CController.php(869): CBaseController->renderFile('/home/smstanan/...', Array, true)
+#11 /home/smstanan/public_html/thientruong/yii/framework/web/CController.php(782): CController->renderPartial('update', Array, true)
+#12 /home/smstanan/public_html/thientruong/tb-admin/protected/controllers/BlockController.php(123): CController->render('update', Array)
+#13 [internal function]: BlockController->actionUpdate('1')
+#14 /home/smstanan/public_html/thientruong/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(BlockController), Array)
+#15 /home/smstanan/public_html/thientruong/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(BlockController), Object(ReflectionMethod), Array)
+#16 /home/smstanan/public_html/thientruong/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#17 /home/smstanan/public_html/thientruong/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 /home/smstanan/public_html/thientruong/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#19 /home/smstanan/public_html/thientruong/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 /home/smstanan/public_html/thientruong/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 /home/smstanan/public_html/thientruong/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 /home/smstanan/public_html/thientruong/yii/framework/web/CController.php(291): CFilterChain->run()
+#23 /home/smstanan/public_html/thientruong/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#25 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('block/update')
+#26 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#27 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#28 {main}
+REQUEST_URI=/tb-admin/block/update/1.html
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Block/admin.html
+---
+2016/11/19 00:22:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Block/admin.html
+---
+2016/11/19 00:23:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Products/Categoriesp/admin
+---
+2016/11/19 00:23:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/54df5a44122345.jpg".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/54df5a4...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/uploads/54df5a44122345.jpg
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Products/Categoriesp/admin
+---
+2016/11/19 00:23:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Products/default/admin
+---
+2016/11/19 00:23:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Products/default/admin
+---
+2016/11/19 00:23:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Pages/default/admin
+---
+2016/11/19 00:23:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Pages/default/update/id/1
+---
+2016/11/19 00:23:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Pages/default/admin
+---
+2016/11/19 00:23:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/Pages/default/update/id/4
+---
+2016/11/19 00:23:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.ssd-vertical-navigation.min.js".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/jquery.ssd-v...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/js/jquery.ssd-vertical-navigation.min.js
+HTTP_REFERER=http://thientruonglong.com/tb-admin/
+---
+2016/11/19 03:02:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/54df5a44122345.jpg".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/54df5a4...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/uploads/54df5a44122345.jpg
+HTTP_REFERER=http://thientruonglong.com/
+---
+2016/11/19 16:13:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/54df5a44122345.jpg".' in /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /home/smstanan/public_html/thientruong/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/54df5a4...')
+#1 /home/smstanan/public_html/thientruong/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /home/smstanan/public_html/thientruong/tb-admin/index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/tb-admin/uploads/54df5a44122345.jpg
+HTTP_REFERER=http://demo.bluevn.net/thientruong/
+---

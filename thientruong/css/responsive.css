@@ -1,0 +1,312 @@
+/* ==== HR Owen Stylesheet - Copyright Bluesky Interactive ==== */
+
+.mean-bar{position:absolute;padding:0;height:25px; z-index:500; width:100%; left:0; pointer-events:none; background:#000;}
+  .mean-container a.meanmenu-reveal{height: 25px; position: absolute; top: 0; left:0; cursor: pointer; color: #fff!important; text-decoration: none; font-size: 12px!important; line-height: 25px; display: block; clear: both; text-align:center!important; pointer-events:auto; width:100%; text-transform:uppercase;}
+  .mean-container a.meanmenu-reveal i {margin-left:5px; display: none;}
+  .mean-container a.meanmenu-reveal i.icon-menu {font-size:13px; display: none;}
+ .mean-container .mean-nav{float:left;width:100%;background:#000; margin-top:25px; pointer-events:auto;}
+ .mean-container .mean-nav ul{padding:0!important;margin:0!important;width:100%;list-style-type:none; font-size:12px; text-transform:uppercase;}
+ .mean-container .mean-nav ul li{position:relative;float:left;width:100%; list-style:none;}
+ .mean-container .mean-nav ul li a{display:block;float:left;width:95%; padding:.6em 2.5%;margin:0;text-align:left;color:#fff;border-bottom:1px solid #333333;text-decoration:none;}
+ .mean-container .mean-nav ul li li a{width:80%;padding:.6em 10%;border-bottom:1px solid #333333;opacity:.75;filter:alpha(opacity=75);visibility:visible}
+ .mean-container .mean-nav ul li li li a{width:70%;padding:.6em 15%}
+ .mean-container .mean-nav ul li li li li a{width:60%;padding:.6em 20%}
+ .mean-container .mean-nav ul li li li li li a{width:50%;padding:.6em 25%}
+ .mean-container .mean-nav ul li a:hover{background:#252525;background:rgba(255,255,255,.1)}
+ .mean-container .mean-nav ul li a.mean-expand{width:26px;line-height:35px;padding:0!important;text-align:center;position:absolute;right:10px;top:0;z-index:2;font-weight:400;border:0!important;}
+ .mean-container .mean-push{float:left;width:100%;padding:0;margin:0;clear:both}
+
+@media only screen and (max-width: 1170px) {
+	
+	/* Group Home */
+	.brands-inner {padding-right:860px;}
+	.brands-inner .center {width:860px;}
+	#brands ul li {width:106.300px;}
+	/*vip*/
+	/*#brands ul li {width:121.7px;}*/
+	.brands-inner div{margin-right:-3px;}
+	.brands-inner div + div{margin-right:-5px;}
+	
+	/* Careers */
+	.job-details strong {float:none;}
+	
+}
+@media only screen and (max-width: 320px) {
+	#brands, #mobile-ctas {
+    bottom: -46px !important; 
+}
+}
+
+@media only screen and (max-width: 1150px) {
+	
+	/* Nav */
+	#nav ul li a {padding:0 8px;}
+	
+	/* Group Home */
+	#group-nav ul li.left {padding-left:18px; padding-right:26px;}
+	#group-nav ul li.right {padding-right:23px; padding-left:31px;}
+	#group-nav ul li.last {padding-right:105px;}
+	#group-nav ul li.first {padding-left:105px;}
+	
+}
+
+@media only screen and (max-width: 1024px) {
+	
+	/* Spotlight */
+	#spotlight .col.lg-1-4, #profiles .col.lg-1-4 {width:33.3332%;}
+	
+}
+
+@media only screen and (max-width: 950px) {
+	
+	/* Group Home */
+	#group-nav ul li.left {padding-left:13px; padding-right:21px;}
+	#group-nav ul li.right {padding-right:18px; padding-left:26px;}
+	#group-nav ul li.last {padding-right:95px;}
+	#group-nav ul li.first {padding-left:95px;}
+	
+	/* New Car Details */
+	#spec-highlight p {font-size:9px;}
+	
+}
+
+@media only screen and (max-width: 860px) {
+	
+	/* Common / Grid */
+	.grid .md-1-1 {width: 100%} .grid .md-1-2 {width: 50%} .grid .md-1-3 {width: 33.3332%} .grid .md-2-3 {width: 66.6665%} .grid .md-1-4 {width: 25%} .grid .md-3-4 {width: 75%} .grid .md-1-5 {width: 20%} .grid .md-2-5 {width: 40%} .grid .md-3-5 {width: 60%} .grid .md-4-5 {width: 80%} .grid .md-1-6 {width: 16.6666%} .grid .w-2-6 {width: 33.3333%} .grid .md-3-6 {width: 49.9998%} .grid .md-4-6 {width: 66.6664%} .grid .md-5-6 {width: 83.333%}
+	.sticky-margins .grid .row, .sticky-margins .row.grid {padding: 0 10px;}
+
+	.tablet-hide {display:none!important;}
+	.tablet-show {display:inherit!important;}
+	.tablet-half {width:50%!important;}
+	.tablet-whole {width:100%!important;}
+	
+	#bc-chat-container .bc-minimize-container {bottom:50px!important;}
+	
+	/* Group Home */
+	#full-image {background-image:url(../img/backgrounds/full-image/generic-mobile.jpg);} 
+	#group-header .logo img {height:50px; width:auto;}
+	
+	/* Franchise Home */
+	#video-controls {top:125px;}
+	
+	/* Header */
+	#header {height:95px; position:relative;}
+	#header .logo {margin-bottom:20px;}
+	#header .logo img {height:50px; width:auto;}
+	main {margin-top:10px;}
+	
+	/* Franchise Headers */
+	#header.brand .logo, #header.brand .jack-barclay-logo {margin:0;}
+	#header.brand .logo img, #header.brand .jack-barclay-logo img {height:70px; width:auto;}
+	#header.brand .franchise-logo, #header.brand .contact-dealership {margin:10px 0 0 0;}
+	#header.brand .contact-dealership {height:50px!important; line-height:50px!important; margin-right:20px;}
+	#header.brand .franchise-logo img {height:50px; width:auto;}
+	.franchise-home #header.brand {position:absolute;}
+	.franchise-home .mean-container .mean-nav ul li a.mean-expand{display:none;}
+	
+	/* Footer */
+	#footer {padding-bottom:50px;}
+	
+	/* Locations / Contact */
+	#locations-grid .col.lg-1-4 {width: 33.3332%}
+	
+	/* Careers */
+	.job-details strong {float:right;}
+	
+	/* Used Car List */
+	#results-controls.sticky.stuck, #sticky-item.stuck {position:relative; top:0;}
+	
+	/* Used Car Search */
+	.sticky-margins #used-search .row {padding: 0 15px;}
+	
+	/* Compare */
+	.comparison .address {height: 100px;}
+	.comparison table {font-size: 15px; font-size: 1.5rem;}
+	.comparison h4 {font-size: 22px; font-size: 2.2rem;}
+	.comparison .address {height: 100px;}	
+	
+	/* Dealership page */
+	#sticky-nav.stuck {position:relative; top:0;}
+	.sticky-wrapper {height:auto!important;}
+	
+	/* New Car Details */
+	#new-details-ctas .button.alt, #used-details-ctas .button.alt {width:50%; float:left;}
+	
+	/* Responsive Table Styles */
+	table#responsive-table thead {display: none;}
+  	table#responsive-table tbody td {display: block; padding:3px;}
+  	table#responsive-table tbody tr td:first-child {background: #333; color: #fff;}
+	table#responsive-table tbody td:before {content: attr(data-th); font-weight: 600; display: inline-block; width: 6rem;}
+  	table#responsive-table th.table-header {text-align:left;}
+	table#responsive-table tbody td:before {width:100% !important;}
+	table#responsive-table tr td:first-child {}
+
+}
+
+@media only screen and (max-width: 775px) {
+	
+	/* Tabs */
+	.resp-tabs .tab-controls li {background-image: none; background-color:#fff; border:1px solid #dddddd; width:100%; margin-bottom:10px; text-align:left; padding-left:20px; line-height:65px;}
+	.resp-tabs .tab-controls li.ui-tabs-active {background:#fff; /*box-shadow: 0 0 4px rgba(0,0,0,.2);*/ height:65px;}
+	.resp-tabs .tab-controls li a {padding:0;}
+	.resp-tab-content {border:1px solid #dddddd; border-top:none; margin-bottom:10px;}
+	.resp-tabs ul.tab-controls {display: none;}
+	.resp-tabs-container {border:0;}
+
+	h2.resp-accordion { display: block; }
+	.resp-accordion-closed { display: none !important; }
+	.resp-tab-content {border:1px solid #dddddd; border-top:none; padding:5px !important; margin-top:-10px;}
+	
+	/* Used List - Grid View */
+	.grid-view .used-list-vehicle {width:50%;}
+	
+	/* Dealership Pages */
+	#hours .widget, #team .widget {padding:20px;}
+	#hours .widget div, #team .widget div {width:100%; border-right:none; border-bottom: 1px solid #d2d2d2; padding:0 0 20px 0; margin-bottom:20px;}
+	
+	/* New Car List */
+	#new-car-list .col.lg-1-3 {width:50%;} 
+	
+	/* New Car Details */
+	#interior-tour, #interior-tour #pano, #interior-tour #krpanoSWFObject {height: 350px!important;}
+	
+	 /*luxury hire*/
+	 #luxury .lg-1-5 { width: 50%; }
+	
+}
+
+@media only screen and (max-width: 675px) {
+	
+	/* Spotlight */
+	#spotlight .col.lg-1-4, #profiles .col.lg-1-4 {width:50%;}
+	
+	/* Used List */
+	.grid-view .used-list-vehicle, .used-list-vehicle {width:100%;}
+	.used-list-vehicle .col.lg-1-3, .used-list-summary.col.lg-2-3, .used-list-summary .col.lg-1-2.main {width:100%;}
+	.used-list-summary .col.lg-1-2.main {padding:0;}
+	.used-list-summary .col.lg-1-2.main.right {text-align:center;}
+	.used-list-vehicle table {margin-bottom:5px;}
+	.used-list-vehicle table td, .used-list-vehicle table th {padding:1px 0;}
+	.used-list-vehicle table td {text-align:right;}
+	.used-list-summary p {margin-bottom:8px;}
+	.finance, .shortlist {font-size:11px;}
+	.used-list-vehicle .list-title, .used-list-vehicle .list-price {margin-bottom:5px;}
+	.used-list-vehicle .list-title h2, .used-list-vehicle .list-price span {font-size: 16px; line-height:20px;}
+	.no-grid-view {display:none;}
+	.reserved, .ex-demo {width: 75px; height: 75px; left: -6px; top: -6px; background-size:200%}
+	.toggle {display:none;}
+	
+}
+
+@media only screen and (max-width: 600px) {
+	
+	/* Common / Grid */
+	.grid .sm-1-1 {width: 100%} .grid .sm-1-2 {width: 50%} .grid .sm-1-3 {width: 33.3332%} .grid .sm-2-3 {width: 66.6665%} .grid .sm-1-4 {width: 25%} .grid .sm-3-4 {width: 75%} .grid .sm-1-5 {width: 20%} .grid .sm-2-5 {width: 40%} .grid .sm-3-5 {width: 60%}  .grid .sm-4-5 {width: 80%} .grid .sm-1-6 {width: 16.6666%} .grid .w-2-6 {width: 33.3333%} .grid .sm-3-6 {width: 49.9998%} .grid .sm-4-6 {width: 66.6664%} .grid .sm-5-6 {width: 83.333%}
+	
+	.mobile-hide {display:none;}
+	.mobile-show {display:inherit!important;}
+	.mobile-half {width:50%!important;}
+	.mobile-whole {width:100%!important;}
+	.button.auto {width:100%!important; padding:0;}
+	.button.auto.mobile-auto {width:auto!important; padding:0 20px;}
+	
+	.row.mobile-pad, .mobile-pad {margin-top:5px; margin-bottom:5px;}
+	.row.mobile-pad .col, .mobile-pad .col {padding-top:5px; padding-bottom:5px;}
+	
+	.widget.cta-box p {margin-bottom:15px;}
+	
+	.franchise-home #video-controls, .franchise-home #video-container, .franchise-home video { display: none;}
+	
+	/* Breadcrumbs */
+	#breadcrumbs .back {display:none;}
+	
+	/* Spotlight */
+	#spotlight .button.auto {width:auto!important; padding:0 20px;}
+	
+	/* Locations / Contact */
+	#locations-grid .col.lg-1-4 {width:49.9%}
+	
+	/* Compare */
+	.comparison .col .button {height: 36px; line-height: 36px;}
+	.comparison table {font-size: 13px; font-size: 1.3rem;}
+	.comparison h4 {font-size: 18px; font-size: 1.8rem;}
+	.comparison .address {height: 85px;}
+	.comparison .shortlist-corner {display: block;}
+	.comparison td, .comparison th {padding: 5px 10px 4px;}
+	
+	/* Dealership Pages */
+	.dealership #map-canvas {height:250px;}
+	
+	/* New Car Details */
+	#new-details-ctas .button.alt, #used-details-ctas .button.alt {width:100%; float:none;}
+	
+	/* Used Car Details */
+	#used-details-tabs .full-spec {width:100%;}
+		
+}
+
+@media only screen and (max-width: 550px) {
+	
+	/* Group Home */
+	#mobile-ctas ul li {height:65px;}
+	
+	/* Used List */
+	#results-controls .results-inner .sort {float:none; margin:0 auto;}
+	.COGPager {float:none; margin:0 auto; display:table; margin-top:5px;}
+	
+	/* New Car Details */
+	#interior-tour, #interior-tour #pano, #interior-tour #krpanoSWFObject {height: 250px!important;}
+		
+}
+
+@media only screen and (max-width: 500px) {
+	
+	/* Offers */
+	.offers-tabs-controls li {width:100%;}
+	#luxury #spotlight .button.auto { width: 100%!important; padding: 0 0px;}
+		
+}
+
+@media only screen and (max-width: 400px) {
+	
+	/* Common / Grid */
+	.grid .x-sm-1-1 {width: 100%} .grid .x-sm-1-2 {width: 50%} .grid .x-sm-1-3 {width: 33.3332%} .grid .x-sm-2-3 {width: 66.6665%} .grid .x-sm-1-4 {width: 25%} .grid .x-sm-3-4 {width: 75%} .grid .x-sm-1-5 {width: 20%} .grid .x-sm-2-5 {width: 40%} .grid .x-sm-3-5 {width: 60%} .grid .x-sm-4-5 {width: 80%} .grid .x-sm-1-6 {width: 16.6666%} .grid .w-2-6 {width: 33.3333%} .grid .x-sm-3-6 {width: 49.9998%} .grid .x-sm-4-6 {width: 66.6664%} .grid .x-sm-5-6 {width: 83.333%}
+	
+	.small-mobile-hide {display:none;}
+	.small-mobile-show {display:inherit!important;}
+	.small-mobile-half {width:50%!important;}
+	.small-mobile-whole {width:100%!important;}
+	
+	/* Spotlight */
+	#spotlight .col.lg-1-4,#profiles .col.lg-1-4 {width:100%;}
+	
+	/* Sticky - Shortlist */
+	#sticky-mobile-links .addthis_toolbox {float: left; width:120px;}
+	
+	/* New Car List */
+	#new-car-list .col.lg-1-3 {width:100%;} 
+	
+	/* New Car Details */
+	#interior-tour, #interior-tour #pano, #interior-tour #krpanoSWFObject {height: 200px!important;}
+
+}
+
+@media only screen and (max-width: 350px) {
+	
+	/* Breadcrumbs */
+	#breadcrumbs {display:none;}
+	
+	/* Locations / Contact */
+	#locations-grid .col.lg-1-4 {width:100%}
+	#locations.franchise {margin:0; padding:0; display:inherit; width:100%;}
+	#locations.franchise #LocationRepeater_upCOGDealerRepeater, #locations.franchise li {display:block;}
+
+}
+
+@media only screen and (max-width: 300px) {
+	
+	/* Sticky - Shortlist */
+	#sticky-mobile-links .shortlist-icon {display:none;}
+
+}

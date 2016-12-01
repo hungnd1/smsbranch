@@ -1,0 +1,802 @@
+/* ==== HR Owen Stylesheet - Copyright Bluesky Interactive ==== */
+
+/* ========== FONTS ========== */
+@font-face {font-family: 'uknumberplateregular'; src: url('../css/fonts/UKNumberPlate-webfont.eot'); src: url('../css/fonts/UKNumberPlate-webfont.eot?#iefix') format('embedded-opentype'), url('../css/fonts/UKNumberPlate-webfont.woff2') format('woff2'), url('/css/fonts/UKNumberPlate-webfont.woff') format('woff'), url('../css/fonts/UKNumberPlate-webfont.ttf') format('truetype'), url('../css/fonts/UKNumberPlate-webfont.svg#uknumberplateregular') format('svg'); font-weight: normal; font-style: normal;}
+
+/* ========== RESET ========== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block }
+body { line-height: 1 }
+ol, ul { list-style: none }
+blockquote, q { quotes: none }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+/* remember to define visible focus styles! 
+:focus {outline: ?????;} */
+/* remember to highlight inserts somehow! */
+ins { text-decoration: none }
+del { text-decoration: line-through }
+table { border-collapse: collapse; border-spacing: 0;}
+
+/* ========== COMMON ========== */
+body, html {background: #fff; color:#3e3e3e;}
+.hide {display:none;}
+.clearfix:before, .clearfix:after, main:before, main:after, #primary:before, #primary:after, #secondary:before, #secondary:after {content: " "; display: table;}
+.clearfix:after, main:after, #primary:after, #secondary:after {clear: both;}
+.clearfix, main, #primary, #secondary  {*zoom: 1;}
+
+/* ========== GRID ========== */
+.row, .col { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+Levante { display: block; clear: both; }
+.row .col { float: left; width: 100%; padding: 10px; }
+.no-gutters .col, .col.no-gutters {padding: 0;}
+.skinny .col, .col.skinny { padding-top: 0; padding-bottom: 0; }
+.left .col, .col.left { padding-left: 0; }
+.right .col, .col.right { padding-right: 0; }
+.grid .row, .row.grid { max-width: 1170px; margin: 0 auto; padding: 0 5px;}
+.sticky-margins .grid .row, .sticky-margins .row.grid {padding: 0 75px;}
+.ie8 .sticky-margins .row.grid, .ie7 .sticky-margins .row.grid {max-width: 1020px;}
+.row .lg-1-1 { width: 100% }
+.row .lg-1-2 { width: 50% }
+.row .lg-1-3 { width: 33.3332% }
+.row .lg-2-3 { width: 66.6665% }
+.row .lg-1-4 { width: 25% }
+.row .lg-3-4 { width: 75% }
+.row .lg-1-5 { width: 20% }
+.row .lg-2-5 { width: 40% }
+.row .lg-3-5 { width: 60% }
+.row .lg-4-5 { width: 80% }
+.row .lg-1-6 { width: 16.6666% }
+.row .lg-2-6 { width: 33.3333% }
+.row .lg-3-6 { width: 49.9998% }
+.row .lg-4-6 { width: 66.6664% }
+.row .lg-5-6 { width: 83.333% }
+.row .col.primary {width:70%; float:right;}
+.row .col.secondary {width:30%;}
+.row .col.primary.no-pad {padding:0;}
+/* Clearfix after every .grid */
+.row { *zoom: 1 }
+.row:before, .row:after { display: table; content: ""; line-height: 0;}
+.row:after { clear: both }
+
+/* Utility classes */
+.align-center { text-align: center }
+.align-left { text-align: left }
+.align-right { text-align: right }
+.justify {text-align: justify;}
+.pull-left { float: left }
+.pull-right, .row .col.pull-right { float: right }
+.no-padding {padding:0!important;}
+.no-margin {margin:0!important;}
+.margin-bottom {margin-bottom:20px!important;}
+.margin-top {margin-top:20px!important;}
+.mobile-show, .small-mobile-show, .tablet-show {display: none !important;}
+
+/* ========== TYPE ========== */
+/* Standard Text */
+body, input {font: normal 13px/20px Arial Unicode MS,arial,helvetica,sans-serif; color:#555;}
+
+/* Block Baselines */
+h1, h2, h3, h4, h5, h6, p, ul, ol, pre, blockquote, textarea, button {margin-bottom: 20px;}
+figure iframe {z-index:1;}
+img.responsive, img.banner, .location img, .compare-img img, #featured img, #new-car-list img, .aftersales.details main img, .chaufeur.details main img {max-width:100%!important;}
+img.centered, .location img, img.banner, #new-car-list img, .aftersales.details img {margin-right:auto; margin-left:auto;}
+img.rounded {border-radius:3px!important;}
+img {display: block;}
+
+/* Headings */
+h1,h2,h3,h4,h5,h6 {text-rendering: optimizeLegibility; font-weight: normal; text-transform:uppercase;}
+h1, h1 a {font-size: 17px; line-height: 21px; padding-bottom:20px; background:url(../img/backgrounds/break.gif) bottom center no-repeat; text-align:center;}
+h2 {font-size: 14px; line-height: 18px; padding-bottom:15px; background:url(../img/backgrounds/break.gif) bottom center no-repeat; text-align:center;}
+h3 {font-size: 13px; margin-bottom: 17px;}
+h4 {font-size: 16px; font-weight: bold;}
+h5 {font-size: 14px; font-weight: bold; margin-bottom: 0;}
+h6 {font-size: 12px; font-weight: bold; margin-bottom: 0;}
+h1.alt, h2.alt {background:none !important; padding-bottom: 0px !important;}
+h1.whole, h2.whole {background-image:url(../img/backgrounds/break-full.gif);}
+
+/* Paragraph Elements */
+a {color:#444444; text-decoration:none;}
+a.highlight {color:#000;}
+a.no-dec, a.no-dec:hover {text-decoration:none;}
+a:hover {text-decoration: underline;}
+a:visited {text-decoration: underline;}
+#page-content a, #edit-price a, #insurance-content a { font-weight: bold; text-decoration: underline; }
+.chaufeur #page-content a { text-decoration: none; font-weight: normal; }
+sup, sub {font-size: 80%; line-height: 0;}
+sup {vertical-align: super;}
+sub {vertical-align: sub;}
+strong {font-weight:600;}
+small {font-size: 80%;}
+
+/* Block Elements */
+ul, ol {margin-left: 20px;}
+li {list-style-type: disc;}
+
+/* Layout */
+main {margin-bottom:10px; margin-top:140px;}
+.ie7 main {padding-top:124px;}
+.group main {margin:0; height: 100%; min-height: 100%;}
+.split {width:100%; height:10px; display:block; margin:10px 0; background:url(../img/backgrounds/break.gif) center center no-repeat;}
+.break {width:100%; height:1px; display:block; margin:30px 0 30px 0; background:#cacbcd;}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+/* IE10+ CSS styles go here */
+main {} 
+}
+_:-ms-fullscreen, :root main {display:block; clear:both;} 
+
+/* Forms */
+input, select, textarea {padding:0 5px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; width: 100%; height: 28px; line-height:28px; margin:0; border:1px solid #d1d1d1; border-radius:0; color:#444444;}
+.ie8 input, .ie8 select, .ie8 textarea {padding:0;}
+select {-webkit-appearance: none; -moz-appearance: none; -ms-appearance: none; -o-appearance: none; appearance: none; background: url(../img/backgrounds/dropdown-arrow.gif) #fff no-repeat right center; cursor:pointer;}
+select::-ms-expand {display: none;}
+textarea {height: auto; font-family:Arial Unicode MS,arial,helvetica,sans-serif; font-size:12px;}
+fieldset {background:#f3f3f3; margin:0; margin-bottom:20px; padding:20px;}
+fieldset input, fieldset select, fieldset textarea {margin-bottom:10px;}
+legend {background:#000; color:#fff; margin:0; padding:10px 15px 12px 15px; text-align:left; font-size: 14px; line-height: 18px; display:block; text-transform:uppercase;}
+input[type=checkbox] {width: auto; height: auto;}
+label {display: block; width: 100%; clear: both;}
+input[type=checkbox], input[type=radio] {width: auto; height: auto; margin-right: 10px;}
+.invalid {background: #FFCACA; border-color: #F00;}
+.required {color:#ce1126; font-weight:600;}
+
+/* Tables */
+table {width: 100%;}
+th {font-weight: normal;}
+th, td { padding:3px 10px; text-align: left;}
+thead th, thead tr:nth-child(odd) th {background: #333; color: #fff;}
+#rates th, #rates td { padding:10px;}
+
+/* Buttons */
+.button {display: inline-block; background: #3b3d3c; border: 0; color: #FFF; cursor: pointer; text-align: center; height: 28px; line-height:28px; text-transform:uppercase; margin:0; transition:all 0.3s; font-size:12px; width:100%; -webkit-appearance: none; border-radius:0;}
+.button:hover, .button.black:hover, .button.dark:hover, .button.light:hover {background: #898b8a; text-decoration: none;}
+.button a {color: #fff; text-decoration: none; display:block;}
+.button.alt a {color: #444444;}
+.button.black, .button.dark {background-color:#000;}
+.button.light {background-color:#828282;}
+.button.light:hover {background-color:#b4b4b4;}
+.button.alt {background-color:#f3f3f3; color:#444444;}
+.button.alt:hover {background-color:#e9e8e8;}
+.button.large {font-size:18px; padding:25px 0; height:auto;}
+.button.medium {font-size:18px; padding:14px 0; height:auto; line-height:20px;}
+.button.auto {width:auto!important; padding: 0 20px;}
+input.button {line-height: normal; padding: 0 20px;}
+
+/* Sticky - Social Links & Live Chat & Shortlist */
+/* .bcFloat {display:none!important;} */
+#social-share, #live-chat, #shortlist-sticky {position:fixed; top:140px; left: 0; z-index: 100; width: 100%; pointer-events:none;}
+#social-share .col, #live-chat .col, #shortlist-sticky .col {padding:0;}
+.ie7 #social-share {display:none;}
+.live-chat-icon, .shortlist-icon {float:right; pointer-events:auto;}
+#social-share .addthis_toolbox {background:#f2f2f2; display:inline-block; padding:10px; pointer-events:auto;}
+.addthis_toolbox {
+	display: none !important;
+}
+.bcStatic {
+	display: none;
+}
+.shortlist-icon {
+	display: none;
+}
+#social-share .addthis_default_style .addthis_button_facebook.at300b, #social-share .addthis_default_style .at300b, #social-share .addthis_default_style .addthis_button_twitter.at300b {float:none!important; margin:0!important; padding:0!important; width:32px!important; height:32px!important; margin-bottom:10px!important; display:block!important;}
+#social-share a.addthis_counter.addthis_bubble_style {width: 32px !important; height: 30px !important; padding: 6px 0px 0px !important; text-align: center!important;	background: transparent url("../img/social/addthis-bubble-bg.gif") no-repeat scroll 0px 0px !important;}
+#social-share a.addthis_counter.addthis_bubble_style:hover {background-position: right top !important;}			
+#social-share .addthis_32x32_style .addthis_counter.addthis_bubble_style a.addthis_button_expanded, #social-share .addthis_32x32_white_style .addthis_counter.addthis_bubble_style a.addthis_button_expanded {width: 32px !important;}
+
+#shortlist-sticky {top:253px;}
+#shortlist-sticky .shortlist-icon, #sticky-mobile-links .shortlist-icon {position:relative;}
+#shortlist-sticky .shortlist-count, #sticky-mobile-links .shortlist-count-mobile {position:absolute; bottom:10px; width:100%; text-align:center; font-size:16px; text-transform:uppercase;}
+#shortlist-vehicle-animation {color: #bb162b; font-size: 14px; opacity: .3; position: fixed; z-index: 19; margin: -10px 0 0 -10px;}
+#sticky-mobile-links .shortlist-icon {margin-right:10px;}
+#sticky-mobile-links .shortlist-count-mobile {bottom:7px; text-align:left; left:10px;}
+
+#sticky-mobile-links a.addthis_counter.addthis_bubble_style {display:none!important;}
+#sticky-mobile-links .addthis_toolbox {float: left; width:165px;}
+#sticky-mobile-links .other-links {overflow: hidden;}
+#sticky-mobile-links {position:fixed; bottom:0; left: 0; z-index: 100; width: 100%; background:#f2f2f2;}
+#sticky-mobile-links .addthis_default_style .at4-icon, #sticky-mobile-links .addthis_default_style .at300b, #sticky-mobile-links .addthis_default_style .at300bo, #sticky-mobile-links .addthis_default_style .at300bs, #sticky-mobile-links .addthis_default_style #sticky-mobile-links .at300m {margin:0 3px 0 0!important; padding:0!important;}
+
+/* Header */
+#header {height:124px; margin:0; position:fixed; top:0; left:0; width:100%; z-index:999; background:#fff;}
+#header .col {padding-top:0; padding-bottom:0;}
+#header .logo {margin:10px auto 20px auto; display:table;}
+.ie7 #header .logo {width:170px;}
+
+#header.brand .logo {margin:0 0 1px 0; float:left;}
+#header.brand .franchise-logo, #header.brand .contact-dealership {float:right; margin-top:20px;}
+#header.brand .contact-dealership {height:60px; line-height:60px; margin-right:20px;}
+
+#header.brand .jack-barclay-logo {margin:0; display:none;}
+#header.brand .jack-barclay-logo li {float:left; list-style-type: none;}
+.jack-barclay-logo #header.brand .jack-barclay-logo {display:inline;}
+.jack-barclay-logo #header.brand .logo, .jack-barclay-logo #header.brand .contact-dealership {display:none;}
+
+/* Nav */
+#nav {background:#000; height:25px;}
+#nav ul {margin:0 auto; padding:0; display:table;}
+#nav ul li {float:left; list-style-type: none; position: relative; z-index: 110;}
+#nav ul li a {color: #fff; display: block; height: 100%; text-decoration: none; text-transform:uppercase; padding:0 25px; border-left:1px solid #494949; font-size:12px; line-height:17px; margin:4px 0;}
+#nav ul li:first-child a {border-left:none;}
+#nav ul ul {position: absolute; left: -9999px; top:25px; width: 200px; height: auto; padding: 0;}
+#nav ul li:hover ul li ul {left: -9999px;}
+#nav ul li.last:hover ul {left: auto; right:0;}
+#nav ul ul li {float: none; border-bottom:1px solid #505053;}
+#nav ul ul li a {padding:7px 15px; margin:0; font-size:11px; border:none;}
+#nav ul li:hover a {color:#999999;}
+#nav ul li:hover ul {left: 0; background:#7f7f7f; background-color:rgba(0,0,0,0.5);}
+.ie7 #nav ul li:hover ul {background-color:#7f7f7f;}
+#nav ul li:hover ul li:hover {background: #000;}
+#nav ul li:hover ul li a {color:#fff!important;}
+#nav ul li:hover ul li a:hover {color:#999999!important;}
+#nav ul li:hover ul li:hover ul {left: 200px; top:0px;}
+
+/* Nav li Current States */
+.home #nav ul li.home a, .used-cars #nav ul li.used-cars a, .new-cars #nav ul li.new-cars a, .contact-us #nav ul li.contact-us a, .about-us #nav ul li.about-us a, .offers #nav ul li.offers a, .motability #nav ul li.motability a, .aftersales #nav ul li.aftersales a, .careers #nav ul li.careers a, .finance-insurance #nav ul li.finance-insurance a, .business #nav ul li.business a, .sell-my-car #nav ul li.sell-my-car a {color:#999999;}
+
+/* Hide main navigation on page */
+.no-nav #nav ul {display:none;}
+
+/* Breadcrumbs */
+#breadcrumbs {font-size:11px; margin-bottom:10px; text-transform:capitalize;}
+#breadcrumbs .inner {padding:0 10px;}
+#breadcrumbs p {margin:0; display:inline-block;}
+#breadcrumbs .col {border-bottom:1px solid #dddddd; padding:10px 0 5px 0;}
+#breadcrumbs a.back, #breadcrumbs a.back:hover {cursor:pointer; text-decoration:none; float:right;} 
+
+/* Slider */
+#slider {position: relative; margin: 0 0 20px 0;}
+#slider ul, #slider li {margin: 0; list-style-type: none;}
+.prev, .next {width: 30px; height: 50px; background: url(../img/slider/controls-sprite.png) left top; position: absolute; top: 50%; margin-top: -25px; cursor: pointer; z-index: 100;}
+.prev:hover, .next:hover {opacity: 1;}
+.prev {left: 20px;}
+.next {right: 20px; background-position: right top;}
+
+/* Group Home Styles */
+#group-header {position:absolute; width:100%; top:0; height:152px; background:url(../img/backgrounds/group-header-bg.png) top center repeat-x;}
+#group-header .logo {margin:10px auto; display:table;}
+.ie7 #group-header .logo {width:170px;}
+
+#group-nav {width:100%; margin:0; position:absolute; top:43px;}
+#group-nav ul {display:table; margin:0 auto; padding: 0 0 0 20px;}
+.ie7 #group-nav ul {width:1100px;}
+#group-nav ul li {float: left; list-style-type: none; padding:0;}
+#group-nav ul li.left {padding-left:28px; padding-right:36px; background: url(../img/header/nav-spacer.png) center right no-repeat;}
+#group-nav ul li.right {padding-right:33px; padding-left:41px; background: url(../img/header/nav-spacer.png) center left no-repeat;}
+#group-nav ul li.last, #group-nav ul li.first {background:none;}
+#group-nav ul li.last {padding-right:125px;}
+#group-nav ul li.first {padding-left:125px;}
+#group-nav ul li a {display: block; height: 100%; text-decoration: none; line-height:20px; color:#fff; text-transform:uppercase; font-size:13px; font-family:Arial, Helvetica, sans-serif; font-weight:600;}
+
+
+
+#brands, #mobile-ctas {position:absolute; width:100%; bottom:30px; z-index:500;}
+.brands-inner {height: 172px; white-space:nowrap; padding-right:1173px;}
+.brands-inner div{display:inline-block; *display:inline;/*IE7*/ *zoom:1; background: url(../img/backgrounds/group-brands-bg.png) top center repeat-x; text-align: center; width:50%; white-space:normal; margin-right:-2px; min-height:100%;}
+.brands-inner div + div{margin-right:-3px;}
+.brands-inner .center {width:1171px; background:none;}
+
+#brands ul, #mobile-ctas ul {width:100%; margin:0; padding:0;}
+#brands ul li, #mobile-ctas ul li {float: left; list-style-type: none; margin:0 1px 1px 0; padding:0; width:145.370px; height:85px; display:block; background:#000; background-color:rgba(0,0,0,0.7);}
+/*vip*/
+/*#brands ul li, #mobile-ctas ul li {float: left; list-style-type: none; margin:0 1px 1px 0; padding:0; width:166.15px; height:85px; display:block; background:#000; background-color:rgba(0,0,0,0.7);}*/
+
+#mobile-ctas ul li {width:33.3332%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding:0 1px 1px 0; margin:0; background:none;}
+#brands ul li.end, #mobile-ctas ul li.end {margin-right:0; padding-right:0;}
+#brands ul li.highlight {background-color:rgba(216, 172, 79, 0.7) !important;}
+#mobile-ctas ul li.end {padding-right:0;}
+#brands ul li a, #mobile-ctas ul li a {display: block; height: 100%; text-decoration: none; padding:0; padding-top: 30px; color:#fff; text-transform:uppercase; font-size:13px;}
+#brands ul li.child-active {background:#fff;}
+#brands ul li.child-active a {color:#000;}
+#brands ul.bottom-row li a, #mobile-ctas ul li a {line-height:15px; display:table; text-align:center; width:100%;}
+#brands ul.bottom-row li a.ecurie {line-height: 85px; display:table; text-align:center; width:100%;}
+
+
+#brands ul.bottom-row li span, #mobile-ctas ul li span {vertical-align:middle; display:table-cell;}
+#mobile-ctas ul li a {background-color:rgba(0,0,0,0.7);}
+
+#brand-select, #contact-select {position:fixed; top:10px; left: 0; width: 100%; pointer-events:none;}
+#brand-select .row.grid, #contact-select .row.grid {max-width:600px;}
+#brand-select .brand-outer, #contact-select .contact-outer {position:relative;}
+#brand-select #brand-dropdown, #contact-select #contact-dropdown {display:none; position:absolute; background:#fff; width:100%; padding:20px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; pointer-events:auto;}
+#brand-select #brand-dropdown-link, #contact-select #contact-dropdown-link {width:53px; height:49px; display:block; text-shadow:none; cursor:pointer; background: url(../img/backgrounds/group-nav-icon.png) no-repeat; pointer-events:auto;}
+#contact-select #contact-dropdown-link {float:right; background-image: url(../img/backgrounds/group-contact-icon.png);}
+#brand-select #brand-dropdown-link.open, #contact-select #contact-dropdown-link.open {background-image: url(../img/backgrounds/group-nav-icon-active.png); background-color:#fff;}
+#contact-select #contact-dropdown-link.open {background-image: url(../img/backgrounds/group-contact-icon-active.png);}
+#brand-blackout, #contact-blackout {background: #000; height: 100%; width: 100%; position: fixed; top: 0; left: 0; opacity: 0; display: none;}
+#brand-blackout.open, #contact-blackout.open {z-index: 9998;}
+#brand-select.open, #contact-select.open {z-index: 9999;}
+#brand-select #brand-dropdown ul, #contact-select #contact-dropdown ul {margin:0; text-align:center;}
+#brand-select #brand-dropdown ul li, #contact-select #contact-dropdown ul li {list-style-type:none; width:50%; float:left; padding:7px 0;}
+
+/* Spotlights */
+#spotlight a {background-color:#f3f3f3;}
+#spotlight a, #franchise-spotlights a {height: 225px; width: 100%; overflow: hidden; position: relative; display:block;}
+
+#spotlight a .btn, #franchise-spotlights a .btn {position:absolute; bottom: 15px; width:100%; text-align:center; padding:0; margin:0; display:inline-block;}
+#spotlight a .btn .button.auto, #franchise-spotlights a .btn .button.auto {text-align:center; height:35px; line-height:35px; background:#000; width:100%; min-width:150px;}
+#spotlight a .btn .button.auto:hover, #franchise-spotlights a .btn .button.auto:hover {background:#fff; color:#000;}
+#spotlight a > div, #franchise-spotlights a > div {position: absolute; height: 100%; width: 100%; -moz-transition: all .5s; -webkit-transition: all .5s; transition: all .5s; -moz-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); -moz-background-size: cover; -webkit-background-size: cover; background-size: cover; background-position: center center;}
+#spotlight a:hover > div, #franchise-spotlights a:hover > div {-moz-transform: scale(1.1,1.1); -webkit-transform: scale(1.1,1.1); transform: scale(1.1,1.1);}
+
+/* Franchise Home Styles */
+#full-slider {height: 100%; min-height: 100%; background:#333;}
+#full-slider ul, #full-slider li {width: 100%; height: 100%; padding: 0; list-style-type: none; margin: 0; -moz-background-size: cover; -webkit-background-size: cover; background-size: cover; background-position:center center;}
+#full-slider .cycle-slideshow {width: 100%; height: 100%; margin:auto; position:relative;}
+#full-slider li a {display:block; height:100%;}
+
+#franchise-spotlights {position:absolute; bottom:30px; width:100%; background:#000; background-color:rgba(0,0,0,0.7); z-index:500; display:none; padding:10px 0;}
+#franchise-spotlights a {height: 160px;}
+.no-video #franchise-spotlights {display:block;}
+
+/* Franchise Video Styles */
+#video-container {width:100%!important; height: 100%!important;}
+#video-container #snippet {width:100%!important; height: 100%!important;}
+#video-container #snippet .vjs-loading-spinner {display:none!important;}
+#video-controls {position:absolute; top:150px; width:100%; z-index:109; pointer-events:none;}
+#sound-controls {float:right; display: none; height: 26px !important; opacity: 1 !important; width: 34px !important; pointer-events:auto;}
+#sound-controls a { display: none; height: 26px; width: 34px; }
+#sound-controls a.active { display: block; }
+#sound-controls a#mute-video { background: url(../img/video/mute-btn.png) no-repeat; }
+#sound-controls a#unmute-video { background: url(../img/video/unmute-btn.png) no-repeat; }
+#player-controls {float:right; width: 74px !important; height: 26px !important; pointer-events:auto;}
+#player-controls a { display: block; width: 74px !important; height: 26px !important; opacity: 1 !important; }
+#player-controls a#skip-video { background: url(../img/video/skip-video-btn.png) no-repeat; }
+#player-controls a#play-video { background: url(../img/video/play-video-btn.png) no-repeat; display: none; }
+
+/* Spotlights */
+#spotlight a.aston-martin > div {background-image:url(../img/new-cars/aston-martin.jpg);}
+#spotlight a.bentley > div {background-image:url(../img/new-cars/bentley.jpg);}
+#spotlight a.bugatti > div {background-image:url(../img/new-cars/bugatti.jpg);}
+#spotlight a.ferrari > div {background-image:url(../img/new-cars/ferrari.jpg);}
+#spotlight a.lamborghini > div {background-image:url(../img/new-cars/lamorghini.jpg);}
+#spotlight a.maserati > div {background-image:url(../img/new-cars/maserati.jpg);}
+#spotlight a.rolls-royce > div {background-image:url(../img/new-cars/rolls-royce.jpg);}
+#spotlight a.lotus > div {background-image:url(../img/new-cars/lotus.jpg);}
+
+/* Sell My Car Spotlights */
+.sell-my-car #spotlight a.aston-martin > div {background-image:url(../img/sell-my-car/aston-martin.jpg);}
+.sell-my-car #spotlight a.audi > div {background-image:url(../img/sell-my-car/audi.jpg);}
+.sell-my-car #spotlight a.bentley > div {background-image:url(../img/sell-my-car/bentley.jpg);}
+.sell-my-car #spotlight a.bmw > div {background-image:url(../img/sell-my-car/bmw.jpg);}
+.sell-my-car #spotlight a.land-rover > div {background-image:url(../img/sell-my-car/land-rover.png);}
+.sell-my-car #spotlight a.ferrari > div {background-image:url(../img/sell-my-car/ferrari.jpg);}
+.sell-my-car #spotlight a.lamborghini > div {background-image:url(../img/sell-my-car/lamborghini.jpg);}
+.sell-my-car #spotlight a.mercedes-benz > div {background-image:url(../img/sell-my-car/mercedes-benz.jpg);}
+.sell-my-car #spotlight a.porsche > div {background-image:url(../img/sell-my-car/porsche.jpg);}
+.sell-my-car #spotlight a.rolls-royce > div {background-image:url(../img/sell-my-car/rolls-royce.jpg);}
+.sell-my-car #spotlight a.other > div {background-image:url(../img/sell-my-car/other.jpg);}
+
+/* Aftersales Spotlights */
+.aftersales #spotlight a.aston-martin > div {background-image:url(../img/aftersales/aston-martin.jpg);}
+.aftersales #spotlight a.audi > div {background-image:url(../img/aftersales/audi.jpg);}
+.aftersales #spotlight a.bentley > div {background-image:url(../img/aftersales/bentley.jpg);}
+.aftersales #spotlight a.bugatti > div {background-image:url(../img/aftersales/bugatti.jpg);}
+.aftersales #spotlight a.bmw > div {background-image:url(../img/aftersales/bmw.jpg);}
+.aftersales #spotlight a.ferrari > div {background-image:url(../img/aftersales/ferrari.jpg);}
+.aftersales #spotlight a.lamborghini > div {background-image:url(../img/aftersales/lamborghini.jpg);}
+.aftersales #spotlight a.ecurie > div {background-image:url(../img/aftersales/ecurie.jpg);}
+.aftersales #spotlight a.maserati > div {background-image:url(../img/aftersales/maserati.jpg);}
+.aftersales #spotlight a.mini > div {background-image:url(../img/aftersales/mini.jpg);}
+.aftersales #spotlight a.rolls-royce > div {background-image:url(../img/aftersales/rolls-royce.jpg);}
+
+/* Luxury Hire Spotlights */
+#spotlight a.luxury-hire-ghost > div {background-image:url(../img/luxury-hire/ghost.jpg);}
+#spotlight a.luxury-hire-wraith > div {background-image:url(../img/luxury-hire/wraith.jpg);}
+#spotlight a.luxury-hire-continental-gt > div {background-image:url(../img/luxury-hire/continental-gt.jpg);}
+#spotlight a.luxury-hire-continental-gtc > div {background-image:url(../img/luxury-hire/continental-gtc.jpg);}
+#spotlight a.luxury-hire-flying-spur > div {background-image:url(../img/luxury-hire/flying-spur.jpg);}
+#spotlight a.luxury-hire-quattroporte > div {background-image:url(../img/luxury-hire/quattroporte.jpg);}
+#spotlight a.luxury-hire-ghibli > div {background-image:url(../img/luxury-hire/ghibli.jpg);}
+#spotlight a.luxury-hire-huracan > div {background-image:url(../img/luxury-hire/huracan.jpg);}
+#spotlight a.luxury-hire-bentayga > div {background-image:url(../img/luxury-hire/bentley-bentayga.jpg);}
+#spotlight a.luxury-hire-vantage > div {background-image:url(../img/luxury-hire/aston-vantage.jpg);}
+#luxury #spotlight a {height: 160px; width: 100%; overflow: hidden; position: relative; display:block;}
+#luxury #spotlight a .button { font-size: 10px; }
+
+/* New Car List */
+#new-car-list h3 {text-align:center; font-size:12px;} 
+#new-car-list a:hover {text-decoration:none;} 
+
+/* Careers */
+#careers h2 {background:#000; color:#fff; margin:0; padding:10px 15px 12px 15px; text-align:left;}
+/*#careers .job {background:#f3f3f3; padding:20px; margin-top:0;}*/
+/*#careers .job {padding:20px 10px 25px 10px; margin-top:0; background:url(../img/backgrounds/break-full.gif) bottom center no-repeat;}*/
+#careers .job {padding:20px 10px 15px 10px; margin-top:0; background:url(../img/backgrounds/break-full.gif) bottom center no-repeat;}
+#apply {max-width:800px;}
+.job-details strong {float:right;}
+
+/* Footer & Slide Footer */
+#footer {background: url(../img/backgrounds/footer-diamonds.gif) top center no-repeat; padding:34px 0 0 0; margin-top:45px;}
+#footer-blackout {background: #000; height: 100%; width: 100%; position: fixed; top: 0; left: 0; z-index: 798; opacity: 0; display: none; }
+#slide-footer {position: fixed; width: 100%; left:0; z-index: 799;}
+.ie8 #slide-footer, .ie7 #slide-footer {display:none;}
+#slide-footer.open {z-index:9999;}
+#footer-blackout.open {z-index:9998;}
+#footer-inner h2, #footer-inner h1 {background:none; padding:0; text-align:left;}
+#footer-inner {background: #fff; position: relative; width:100%; padding:20px 0; border-top:1px solid #ededed;}
+#footer-bar {background: #fff; width:100%; height:30px; line-height:30px; position: absolute; top: -30px; left:0; text-transform:uppercase;}
+#footer-bar .col {padding-top:0; padding-bottom:0;}
+#footer-bar i {margin-left:5px;}
+#footer-bar .icon-cross2, #footer-toggle.open .icon-chevron-up {display:none;}
+#footer-toggle.open .icon-cross2 {display:inline-block;}
+#footer-toggle {cursor: pointer; text-align:right;}
+#footer-toggle p {margin:0;}
+#footer-bar:hover, #footer-bar.open {opacity: 1;}
+
+ul.footer-social {margin:0; padding:0;}
+ul.footer-social li {float: left; list-style-type: none; padding:0; padding-left:8px; padding-right:16px; background: url(../img/backgrounds/diamond-spacer.png) center right no-repeat;}
+ul.footer-social li.first {padding-left:0; padding-right:19px;}
+ul.footer-social li.last {background:none; padding-right:0;}
+ul.footer-social li a {display: block; text-decoration: none; font-size:13px;}
+
+/* Widget */
+.widget {background:#f3f3f3; margin:0; padding:20px;}
+.widget.alt {background:#fff; border:1px solid #d2d2d2;}
+.widget.cta-box {}
+.widget.cta-box p, .widget.cta-box input {margin-bottom:15px;}
+.widget.cta-box h3 {margin-bottom:5px;}
+.widget.alt h3 {font-size:13px; color:#999999;}
+
+/* Owl Carousel */
+.owl-dots {margin-right:auto; margin-left:auto; margin-top:5px; display:table;}
+.owl-dot {text-align: center; display: inline-block; padding: 0; cursor: pointer; margin:0;}
+.owl-dot span {background: url(../img/slider/pager.png) right top; width: 16px; height: 16px; margin-right: 5px; text-indent: -9999px; display: block; float: left; cursor: pointer; opacity: 1.0; filter: alpha(opacity=100);}
+.owl-dot.active span {background-position: left top;}
+
+/* Offers Tabs */
+ul.offers-tabs-controls {margin: 0; overflow: hidden;}
+.offers-tabs-controls li {float: left; background: #000; color:#fff; margin: 0; list-style-type: none; cursor:pointer; padding:3px 20px; text-transform:uppercase; font-size:11px; border:1px solid #fff; border-top:none; border-bottom:none; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; text-align:center; text-overflow: ellipsis; overflow:hidden; white-space: nowrap; width:33.3333%;}
+.offers-tabs-controls li a {display:block; color:#fff; text-decoration:none; text-overflow: ellipsis; overflow:hidden; white-space: nowrap;}
+.offers-tabs-controls li.last {border-right:none;}
+.offers-tabs-controls li.active {background:#fff; color:#000; border:1px solid #d2d2d2; border-bottom:none;}
+.offers-tabs-controls li.active a {color:#000;}
+.offers-tabs-container {padding:20px; background-color: none; clear: left; background:#fff; border:1px solid #d2d2d2; border-top:none;}
+.offers-tabs-container.border-top {border-top:1px solid #d2d2d2;}
+
+.offers-list article {padding:0 0 25px 0; margin-bottom:15px; background:url(../img/backgrounds/break-full.gif) bottom center no-repeat;}
+.offers-list h2 {background:none; padding:0; text-align:left;}
+.offers-list img.fit {object-fit: cover; width: 100%!important; height: 125px!important;}
+#offers-form h2 {background:#000; color:#fff; margin:0; padding:10px 15px 12px 15px; text-align:left;}
+.offers.details table {width:100%!important;}
+
+/* Responsive Tabs */
+.resp-tabs ul.tab-controls {margin: 0; overflow: hidden;}
+.resp-tabs .tab-controls li {float: left; background: #000; color:#fff; margin: 0; list-style-type: none; cursor:pointer; padding:3px 20px; text-transform:uppercase; font-size:11px; border:1px solid #fff; border-top:none; border-bottom:none; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; text-align:center; text-overflow: ellipsis; overflow:hidden; white-space: nowrap;}
+.resp-tabs .tab-controls li.last {border-right:none;}
+.resp-tabs .tab-controls li.resp-tab-active {background:#fff; color:#000; border:1px solid #d2d2d2; border-bottom:none;}
+.resp-tabs-container {padding: 0px; background-color: none; clear: left; background:#fff; border:1px solid #d2d2d2; border-top:none;}
+.resp-tab-content {display: none; padding:15px;}
+h2.resp-accordion {cursor: pointer; display: none; background:url(../img/backgrounds/accordion-plus.png) no-repeat 96% 14px; border:1px solid #dddddd; margin-bottom:10px; font-size:14px; padding: 10px 15px; font-weight:200; text-align:left;}
+h2.resp-tab-active {background:url(../img/backgrounds/accordion-minus.png) no-repeat 96% 14px; color:#000;} 
+.resp-tab-content.resp-tab-content-active {display:block;}
+
+/* Accordians */
+.used-list-vehicle .accordion {border:1px solid #91c846; border-radius:3px; margin-bottom:10px;}
+.used-list-vehicle .accordion-heading {text-align: center; cursor:pointer; padding:5px 10px; font-size: 13px; text-transform:uppercase}
+.used-list-vehicle .accordion-heading i {float:none; margin-left:8px; padding-top:0;}
+.used-list-vehicle .accordion-heading i.fa-angle-up {display: none;}
+.used-list-vehicle .accordion-heading.accordion-active i.fa-angle-up {display: inline-block;}
+.used-list-vehicle .accordion-heading.accordion-active i.fa-angle-down {display: none;}
+
+/* Finance */
+#finance-controls input, #finance-controls select {margin:0;}
+#lp-finance table td:nth-child(2), #hp-finance table td:nth-child(2), #pcp-finance table td:nth-child(2) {text-align:right;}
+#lp-finance table, #hp-finance table, #pcp-finance table, #lp-finance .split, #hp-finance .split, #pcp-finance .split {margin-bottom:15px;}
+#lp-finance .button, #hp-finance .button, #pcp-finance .button {margin-bottom:10px;}
+
+/* Used Controls */
+#results-controls {}
+#results-controls .results-inner {background: #f3f3f3; padding:15px; clear: both; overflow: hidden;}
+#results-controls.no-background {background:none;}
+#results-controls.sticky.stuck, #sticky-item.stuck {position: fixed; top:114px; z-index: 199; width: 100%;}
+#sticky-item.stuck {top:124px;}
+#sticky-item .col {background-color:#fff;}
+#sticky-item.stuck #used-search {margin-top:0; margin-bottom:0;}
+
+#results-controls select {height:20px; line-height:20px; font-size:11px;}
+#results-controls {font-size:11px;}
+#results-controls .results-inner .sort, #results-controls .results-inner .per-page, #results-controls .results-inner .toggle {float: left; margin-right:10px;}
+#results-controls .results-inner .sort select, #results-controls .results-inner .per-page select {float: right; margin: 0; background-position: right -5px center;}
+#results-controls .results-inner .sort {width: 175px;}
+#results-controls .results-inner .sort select {width: 130px;}
+#results-controls .results-inner .per-page {width: 92px;}
+#results-controls .results-inner .per-page select {width: 45px;}
+
+.list-toggle, .grid-toggle {float:left; height:20px; width:20px; line-height:15px; margin-right:5px; background:url(../img/used-cars/toggle-icons.gif) left top; padding:0; display:block; cursor:pointer;}
+.list-toggle {background-position: right bottom;}
+.grid-view .list-toggle {background-position: right top;}
+.grid-view .grid-toggle {background-position: left bottom;}
+.grid-toggle:hover {background-position: left bottom;} 
+.list-toggle:hover {background-position: right bottom;} 
+
+.COGPager {float:right; margin:0; padding:0;}
+.COGPager li {list-style-type: none; width:16px; height: 20px; float: left; margin:0; text-align: center; border:none;}
+.COGPager li a, .COGPager li span {display: block; width: 100%; height: 100%; border:none; font-size:11px;}
+.COGPager li a {color:#777;}
+.COGPager li.COGPagerItemSelected span {text-decoration:underline;}
+
+/* Used Search */
+.sticky-margins #used-search {margin-top:5px; margin-bottom:5px;}
+.sticky-margins #used-search .row {padding: 0 80px;}
+.sticky-margins #used-search .row .col {padding:5px;}
+#search-dropdown, #search-dropdown-link .less {display:none;}
+#search-dropdown-link.open .more {display:none;}
+#search-dropdown-link.open .less {display:inline;}
+
+.multi-select {display:none;}		
+.multi-choice li {list-style-type:none; box-sizing:border-box; padding: 5px 10px; margin-bottom: 0; cursor:pointer; line-height:20px;}
+.multi-choice li:hover {background-color: #f3f3f3;}
+.multi-choice {margin:0; padding: 0; display: none; position: absolute; z-index: 500; top:28px; background: #fff; width:100%; box-sizing: border-box; border: 1px solid #d1d1d1; max-height:350px; overflow-y:auto;}
+.trigger {position:relative; width:100%; background: #fff; border:none; box-sizing:border-box; padding:0; border-radius:none; height:28px; line-height:28px; text-shadow:none; background: url(../img/backgrounds/dropdown-arrow.gif) #fff no-repeat right center; border: 1px solid #d1d1d1; color:#000;}
+.trigger span {display: block; width: 100%; padding:0 10px; cursor:pointer; box-sizing:border-box; }
+.multi-choice.is-visible {display: block;}
+.trigger .select-button {position: absolute; top:4px; right: 4px; box-sizing: border-box; padding:0 7px; line-height:18px; height:18px; font-size:9px; background: #333; -webkit-transition: all 0.3s; -moz-transition:all 0.3s; transition:all 0.3s; -webkit-appearance: none; border-radius:none; display:none; cursor:pointer; color:#fff;}
+.trigger .select-button:hover {background-color: #000;}
+
+/* Used Car List */
+.used-list-vehicle {padding-bottom:10px; background:url(../img/backgrounds/break-full.gif) bottom center no-repeat; color:#555555;}
+.lamborghini-used .used-list-vehicle {padding-bottom:10px; background:url(../img/backgrounds/break-full.gif) bottom center no-repeat; color:#fff;}
+.used-list-vehicle-image {position: relative;}
+.used-list-vehicle-image a img {width:100%!important; height:auto;}
+.image-count {position: absolute; bottom: 0; left: 0; background:#000; color: #FFF; opacity: .5; margin:0; padding:4px 10px; font-size:12px;}
+.reserved, .ex-demo {width: 100px; height: 100px; text-indent: -9999px; background: url(../img/used-cars/used-car-label-sprite.png) left top; position: absolute; left: -9px; top: -8px;}
+.ex-demo {background-position: right top;}
+.used-list-vehicle .list-title {overflow: hidden;}
+.used-list-vehicle .list-price {float: right; width:100px; margin-left: 10px;}
+.used-list-vehicle a {text-transform:uppercase;}
+.used-list-vehicle .list-title, .used-list-vehicle .list-price {margin-bottom:10px;}
+.used-list-vehicle .list-title h2, .used-list-vehicle .list-price span {margin:0; padding:0; font-size:18px; line-height:22px; color:#555555; background:none; text-align:left}
+.lamborghini-used .used-list-vehicle .list-title h2, .lamborghini-used .used-list-vehicle .list-price span {margin:0; padding:0; font-size:18px; line-height:22px; color:#fff; background:none; text-align:left}
+.used-list-vehicle .list-price p {margin:0; text-align:right;}
+.used-list-vehicle .list-telephone {font-size:18px; line-height:18px; margin-top:10px;}
+.used-list-vehicle .list-telephone i {font-size:15px;}
+.used-list-vehicle .list-telephone small {font-size:9px;}
+.used-list-vehicle .list-dealer {text-transform:none;}
+.used-list-vehicle table {width:100%;}
+.used-list-vehicle table td, .used-list-vehicle table th {width:50%; border:none; padding:3px 0;}
+.used-list-summary .right {text-align:right;}
+.used-list-summary i {font-size:10px;}
+
+/* Used List - Grid View */
+.grid-view .used-list-vehicle {width:33.3333%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; float:left;}
+.grid-view .used-list-vehicle .col.lg-1-3, .grid-view .used-list-summary.col.lg-2-3, .grid-view .used-list-summary .col.lg-1-2.main {width:100%;}
+.grid-view .used-list-summary .col.lg-1-2.main {padding:0;}
+.grid-view .used-list-summary .col.lg-1-2.main.right {text-align:center;}
+.grid-view .used-list-vehicle table {margin-bottom:5px;}
+.grid-view .used-list-vehicle table td, .grid-view .used-list-vehicle table th {padding:1px 0;}
+.grid-view .used-list-vehicle table td {text-align:right;}
+.grid-view .used-list-summary p {margin-bottom:8px;}
+.grid-view .finance, .grid-view .shortlist, .grid-view .classic-cars {font-size:11px;}
+.grid-view .used-list-vehicle .list-title, .grid-view .used-list-vehicle .list-price {margin-bottom:5px;}
+.grid-view .used-list-vehicle .list-title h2, .grid-view .used-list-vehicle .list-price span {font-size: 16px; line-height:20px;}
+.grid-view .no-grid-view {display:none;}
+.grid-view .reserved, .grid-view .ex-demo {width: 75px; height: 75px; left: -6px; top: -6px; background-size:200%}
+
+/* Used Car Details */
+#used-details-image {position:relative;}
+#used-details-image img {width:100%!important; height:auto!important;}
+#used-details-image .magnify {position:absolute; top:12px; right:15px; z-index:500; pointer-events:none; width:114px; height:21px; background:url(../img/used-cars/magnify.png) no-repeat;}
+#used-details-thumbs-carousel {
+	border-top: none;
+    position: relative;
+    /* padding: 0 28px; */
+    /* overflow: hidden; */
+    background: #fff;
+    bottom: 227px;
+}
+#used-details-thumbs-carousel .prev, #used-details-thumbs-carousel .next {
+	width: 28px; 
+	height: 59px; 
+	background: url(../img/slider/controls-sprite.png) 
+	left top; position:absolute; top:50%;  
+	margin-top: -30px; 
+	cursor: pointer; 
+	z-index: 100;
+	opacity: 0.5;
+}
+#used-details-thumbs-carousel .prev {left:0;}
+#used-details-thumbs-carousel .next {right:0; background-position: right top;}
+#used-details-thumbs {width:100%;}
+#used-details-thumbs img {cursor: pointer;}
+#used-details-thumbs .cycle-slide-active {opacity: .5!important;}
+#used-details-image figure, #used-details-image iframe {width:100%!important; height:100%!important; border:none;}
+.resp-tabs-container iframe {width:100%!important; /*height:100%!important;*/ border:none;}
+#used-details-summary h1 {padding-bottom:28px; font-size:17px;}
+#used-details-summary .price {text-align:center; color:#000; font-size:30px;}
+#used-details-summary .cta-box {text-align:center; margin-bottom:8px;}
+#used-details-summary .cta-box h3 {margin-bottom:12px;}
+#used-details-summary .cta-box p {font-size:26px; line-height:24px; margin:0;}
+#used-details-summary .cta-box p i {font-size:22px;}
+#used-details-summary .cta-box p small {font-size:9px; line-height:16px;}
+#used-details-ctas .button, #new-details-ctas .button {margin-bottom:5px;}
+#used-details-ctas .button.alt, #new-details-ctas .button.alt {padding:3px 0; color:#444444;}
+#used-details-ctas .button.dark:hover, #new-details-ctas .button.dark:hover {background:#000;}
+
+#used-details-tabs.resp-tabs .tab-controls {width:100%;}
+#used-details-tabs.resp-tabs .tab-controls li {width:50%;}
+
+#used-details-tabs #specification table td {width:50%; text-align:left;}
+#used-details-tabs .full-spec {margin:0; margin-bottom:10px;}
+#used-details-tabs .full-spec {width:50%; float: left;}
+#used-details-tabs .full-spec li {list-style:none; text-align:left;}
+
+.hashlink {height:1250px; margin-top:-1250px; visibility: hidden;}
+
+
+/* New Car Details */
+#new-slider {}
+#new-slider ul, #new-slider li, #new-slider ul li img {width: 100%; height: auto;}
+#new-slider ul, #new-slider li {padding: 0; list-style-type: none; margin: 0; width: 100%; height: auto;}
+#new-slider .cycle-slideshow {width: 100%; height: auto; margin:auto; position:relative;}
+
+.new-cars #overview, .new-cars #interior, .new-cars #technology, .new-cars #specification, .new-cars #price, .new-cars #videos {margin-bottom:30px;}
+
+#interior-tour {width: 100%; height: 500px; position: relative; overflow:hidden;}
+#interior-tour #krpanoSWFObject {width:100%!important; height:500px!important;}
+
+.new-cars.details main img {width:100%; height:auto;}
+.new-cars.details #specification table {font-size:11px;}
+.new-cars.details #specification table th {font-weight:600; background:none; color:#444; padding:0;}
+.new-cars.details #specification table td {display:block; padding:0; line-height:20px;}
+.new-cars.details #specification table tr {display:block; margin-bottom:10px;}
+.new-cars.details #spec-highlight {list-style: none; margin:0; padding:0;}
+.new-cars.details #spec-highlight li {list-style-type: none; margin:0; text-transform:uppercase; padding-top:0;}
+.new-cars.details #spec-highlight p {margin:0; background:#f3f3f3; font-size:11px; color:#000; padding:3px 8px;}
+.new-cars.details #spec-highlight p span {float:right;}
+
+/* Featured Cars */
+#featured.widget {padding:10px; background-color:#fff; border:1px solid #d2d2d2; position:relative;}
+#featured.widget h3 {margin:0; padding:15px 10px; text-align:left; font-size:13px; color:#999999;}
+#featured a {display:block; padding-bottom:25px; background:url(../img/backgrounds/break-full.gif) bottom center no-repeat;}
+#featured a:hover {text-decoration:none;}
+#featured h4 {font-size:14px; margin-bottom:5px; margin-top:15px; text-transform:uppercase; text-overflow: ellipsis; overflow:hidden; white-space: nowrap; font-weight:400;}
+#featured .similar-price {font-size:14px; color:#000; margin-bottom:5px;}
+#featured table {margin-bottom:15px;}
+#featured table td, #featured table th {width:50%; padding:0; font-size:11px;}
+#featured table td {text-align:right;}
+.ie8 #featured img, .ie7 #featured img {max-width:none!important; width:100%!important;}
+
+/* Locations */
+.locations-tabs ul {list-type:none; margin:0 0 20px 0;}
+.locations-tabs ul li {list-style-type: none; padding:5px!important;}
+.locations-tabs ul li a {display:block;}
+.locations-loading {height: 200px; text-align:center; margin-bottom: 3em; font-size:25px;}
+#locations {display: none; padding-bottom: 3em; overflow: hidden; margin:0;}
+#locations li {margin:0; list-style:none;}
+#locations.franchise {display:inherit; padding:0;}
+#locations .widget {text-align: center; position: relative; background:none; padding:0 0 20px 0; margin:0 0 20px 0; border-bottom:1px solid #d2d2d2}
+#locations .location p, #locations .location h3 {padding:0 20px;}
+#locations .location p {text-transform: uppercase; font-size: 12px; color: #666; margin-bottom:40px;}
+#locations .location a {border: 0; text-decoration:none;}
+#locations .location img {margin-bottom:12px;}
+#locations .location .btn {position: absolute; bottom:20px; width:100%; text-align:center; padding:0!important; margin:0!important;}
+
+#locations.franchise {margin:0 auto; padding:0; display:table;}
+#locations.franchise #LocationRepeater_upCOGDealerRepeater {display:inline;}
+
+/* Dealership Pages */
+#map-canvas {width: 100%; height: 320px;}
+.dealership #map-canvas {height:410px;}
+fieldset.directions {background:#000; padding:10px; margin:0;}
+fieldset.directions label {width:130px; position:relative; top:0; color:#fff; text-transform:uppercase; font-size:13px; line-height:22px; float:left;}
+fieldset.directions .directions-form, fieldset.directions .directions-field {overflow:hidden;}
+fieldset.directions .button {width:40px; height:22px; line-height:22px; float:right; margin-left:10px;}
+fieldset.directions input {margin:0; height:22px; line-height:22px; padding:0;}
+.dealership main h2, h2.block {background:#000; color:#fff; margin:0; padding:10px 15px 12px 15px; text-align:left;}
+#dealership-details img {width:100%; height:auto; padding-bottom:15px;}
+#dealership-details .dealer-numbers {margin:10px 0; border-bottom:1px solid #d2d2d2; padding-bottom:10px;}
+#dealership-details .dealer-numbers p {margin-bottom:8px; line-height:22px;}
+#dealership-details .dealer-numbers i {font-size:14px;}
+#dealership-details .dealer-numbers p span {font-size:18px; float:right;}
+#dealership-details .dealer-numbers small {display:block; text-align:center;}
+#dealership-details .dealer-address h3 {text-align:center; margin-bottom:0; font-size:12px;}
+
+#hours .widget, #team .widget {padding-left:0; padding-right:0;}
+#hours .widget div, #team .widget div {width:33.3333%; float:left; display:block; border-right: 1px solid #d2d2d2; padding:0 20px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+#hours .widget table th, #team .widget table th {background:none; color:#000; padding-right:0; padding-left:0;}
+#hours .widget table td, #team .widget table td {width:50%; padding-right:0; padding-left:0;}
+#hours .widget table td:nth-child(2), #team .widget table td:nth-child(2) {text-align:right;}
+
+#sticky-nav {width:100%; background-color:#fff; height:30px; margin-bottom:15px;} 
+#sticky-nav.stuck {position: fixed; top: 124px; left: 0; z-index:99;}
+#sticky-nav ul {list-style: none; margin:0 auto; max-width:1170px;}
+#sticky-nav a {line-height:30px; text-decoration:none; font-size:13px; display:block; height:100%; text-transform:uppercase;}
+#sticky-nav li {display: inline-block; text-align:center; padding: 0px !important;}
+#sticky-nav .grid .col {padding: 0px !important;}
+
+/* Aftersales Styles */
+.aftersales.details table {margin:0 auto; margin-bottom:20px;}
+.aftersales.details td, .aftersales.details th {border:1px solid #a5a5a5; font-size:11px; text-align:center;}
+.aftersales.details td:first-child, .aftersales.details th:first-child {text-align:left;}
+
+.aftersales main a {font-weight:bold;}
+.aftersales main .button, .aftersales main .button a, .aftersales #breadcrumbs a, .aftersales #sticky-nav a, .aftersales #locations-grid a {font-weight:normal!important;}
+.aftersales h1 {font-size: 22px; line-height: 26px; padding-bottom:25px;}
+
+/* Compare */
+.comparison {padding-bottom: 30px;}
+.comparison .col img {max-width: 100%; height: auto;}
+.comparison .col {position: relative;}
+.comparison .col.lg-1-4 {margin: 0; padding:1px;}
+.comparison .compare-img {position: relative;}
+.comparison .compare-img img {margin-bottom: 10px;}
+.comparison .shortlist-remove {top: 0;}
+.comparison h4 {white-space: nowrap; font-size: 10px;}
+.comparison .accordion-heading {background: url(../img/backgrounds/accordion-sprite.png) right 0px no-repeat; border-radius: 0; cursor: pointer; outline: 0; background-color:#000; color:#fff; margin:0 0 6px 0; padding:10px 15px 12px 15px; text-align:left;}
+.comparison .accordion-heading.ui-state-active {background-position: right -42px;}
+.accordion-content {padding:20px 10px 25px 10px; margin:0 0 30px 0; background:url(../img/backgrounds/break-full.gif) bottom center no-repeat;}
+.comparison .shortlist-corner {display: none;}
+.comparison table {}
+.comparison td, .comparison th {padding-left: 2px; padding-right: 0; font-size:12px; border:1px solid #d2d2d2;}
+.comparison th {background:#d2d2d2; border:1px solid #fff;}
+.comparison-heading {margin-bottom: 5px;}
+
+/* Sell My Car */
+.sell-my-car .reg {background: url(../img/backgrounds/numberplate-bg-sml.gif) left center no-repeat #fff; border-radius: 5px; padding: 5px 5px 5px 35px; font-size: 40px; font-weight: bold;text-transform: uppercase; margin: 5px 0 10px 0; height: 60px; display: block; line-height:60px; font-family:'uknumberplateregular'; border:1px solid #cfcfcf; color:#000; max-width:250px;}
+.sell-my-car #locations.franchise li.bugatti, .sell-my-car #locations.franchise li.rolls-royce { width: 100%; }
+
+
+/* Chauffeur Drive Styles */
+.chauffeur-vehicle {margin-bottom:5px;}
+
+/* Progress Bar */
+#progress .widget {padding:0;}
+.progress-bar {height:20px; overflow: hidden;}
+.progress {background: #333;}
+.progress span {height: 20px; background: url(../img/backgrounds/progress.gif) left top; display: block; opacity: 0.1;}
+.step1 .progress {width: 25%;}
+.step2 .progress {width: 50%;}
+.step3 .progress {width: 75%;}
+.step4 .progress {width: 100%;}
+
+/* Cookie Notice */
+#cookie-popin {	background:#fff; border-top:1px solid #d2d2d2; bottom: 0;box-sizing: border-box;display: none;position: fixed;text-align: center;width: 100%;z-index:500;}
+#cookie-popin .col {position:relative;}
+#cookie-popin p {line-height: 20px;margin: 0; padding:0 45px;}
+#cookie-popin a {line-height: 20px;margin: 0;text-decoration: underline;}
+#cookie-popin i {cursor: pointer;left: auto;position: absolute;right: 10px;top: 15px;}
+
+.home {
+	display: none;
+}
+.home_active {
+	display: block;
+}
+#full-image a div {display:block; height: 100%; min-height: 100%;}
+#results-controls .results-inner{
+    margin-top: 25px;
+}
+#breadcrumbs{
+    margin-top: 20px;
+}
+.row .lg-1-3{
+    font-size: 12px;
+}
+.slick-next {
+    right: 5px;
+        z-index: 9;
+}
+.slick-prev {
+        left: 5px;
+            z-index: 9;
+}
+.icon-ff{
+    background-image: url("../img/social.png");
+    height: 24px;
+    width: 22px;
+}
+.icon-tw{
+    background-image: url("../img/social.png");
+    height: 24px;
+    width: 22px;
+    background-position: -40px center;
+}
+.icon-gg{
+    background-image: url("../img/social.png");
+    height: 24px;
+    width: 22px;
+    background-position: -86px center;
+}
+ul.footer-social li.first {
+    padding-left: 0;
+    padding-right: 10px;
+}

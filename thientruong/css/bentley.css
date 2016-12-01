@@ -1,0 +1,53 @@
+/* ==== HR Owen Bentley Stylesheet - Copyright Bluesky Interactive ==== */
+
+/* Text Colour */
+a.highlight, #used-details-summary .price, #featured .similar-price {color:#284e1e;}
+
+/* Background Colours */
+.button.black, .button.dark {background-color:#284e1e;}
+#used-details-ctas .button.dark:hover, #new-details-ctas .button.dark:hover {background:#284e1e;}
+
+legend {background:#000;}
+#offers-form h2 {background:#000;}
+fieldset.directions {background:#000;}
+.dealership main h2, h2.block {background:#000;}
+.comparison .accordion-heading {background-color:#000}
+.offers-tabs-controls li {background: #000;}
+.resp-tabs .tab-controls li {background: #000;}
+
+/* Background Images */
+.aftersales #spotlight a.servicing-maintenance > div {background-image:url(/bentley/img/aftersales/servicing-maintenance.jpg);}
+.aftersales #spotlight a.parts-accessories > div {background-image:url(/bentley/img/aftersales/parts-accessories.jpg);}
+.aftersales #spotlight a.bodyshop > div {background-image:url(/bentley/img/aftersales/bodyshop.jpg);}
+.aftersales #spotlight a.offers > div {background-image:url(/bentley/img/aftersales/offers.jpg);}
+.aftersales #spotlight a.accessories > div {background-image:url(/bentley/img/aftersales/accessories.jpg);}
+.aftersales #spotlight a.alloy-refurb > div {background-image:url(/bentley/img/aftersales/alloy-refurb.jpg);}
+.aftersales #spotlight a.diagnostic-services > div {background-image:url(/bentley/img/aftersales/diagnostic-services.jpg);}
+.aftersales #spotlight a.extended-warranty > div {background-image:url(/bentley/img/aftersales/extended-warranty.jpg);}
+.aftersales #spotlight a.fixed-price-servicing > div {background-image:url(/bentley/img/aftersales/fixed-price-servicing.jpg);}
+.aftersales #spotlight a.international-repairs > div {background-image:url(/bentley/img/aftersales/international-repairs.jpg);}
+.aftersales #spotlight a.lifestyle-accessories > div {background-image:url(/bentley/img/aftersales/lifestyle-accessories.jpg);}
+.aftersales #spotlight a.paintless-repair > div {background-image:url(/bentley/img/aftersales/paintless-repair.jpg);}
+.aftersales #spotlight a.service-mot > div {background-image:url(/bentley/img/aftersales/service-mot.jpg);}
+.aftersales #spotlight a.trade-enquiry > div {background-image:url(/bentley/img/aftersales/trade-enquiry.jpg);}
+.aftersales #spotlight a.leather > div {background-image:url(/bentley/img/aftersales/leather-restore.jpg);}
+
+#franchise-spotlights a.new > div {background-image:url(/bentley/img/spotlights/new.jpg);}
+#franchise-spotlights a.used > div {background-image:url(/bentley/img/spotlights/used.jpg);}
+#franchise-spotlights a.offers > div {background-image:url(/bentley/img/spotlights/offers.jpg);}
+
+/* Homepage Slider Images */
+#full-slider li.slide-1 {background-image: url(/bentley/img/home-slides/slide-1.jpg);}
+#full-slider li.slide-2 {background-image: url(/bentley/img/home-slides/slide-2.jpg);}
+#full-slider li.slide-3 {background-image: url(/bentley/img/home-slides/slide-3.jpg);}
+
+/* Offer ctas*/
+
+.new-ctas { padding-bottom: 30px !important; margin-bottom: 20px; display: block; background: url(/img/backgrounds/break.gif) bottom center no-repeat; }
+.new-ctas .button.black { background: #000; text-align: center; height: 35px; line-height: 35px; width: 100%; min-width: 210px; font-size: 16px; }
+.new-ctas .button.black:hover {background:#ccc; color:#000;}
+.bold { font-weight: 700; }
+.new-offer-title { font-size: 20px; }
+.underline { text-decoration: underline;}
+
+.no-margin p { margin-bottom: 0px;  }

@@ -1,0 +1,66 @@
+<?php
+/* @var $this HistoryController */
+/* @var $model History */
+
+$this->breadcrumbs=array(
+	'Histories'=>array('index'),
+	$model->history_id,
+);
+
+$this->menu=array(
+	array('label'=>'List History', 'url'=>array('index')),
+	array('label'=>'Create History', 'url'=>array('create')),
+	array('label'=>'Update History', 'url'=>array('update', 'id'=>$model->history_id)),
+	array('label'=>'Delete History', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->history_id),'confirm'=>'Are you sure you want to delete this item?')),
+	array('label'=>'Manage History', 'url'=>array('admin')),
+);
+?>
+
+<h1>View History #<?php echo $model->history_id; ?></h1>
+<input type="button" value="Export Excel" onclick="exportExcel();"/>
+<?php $this->widget('zii.widgets.CDetailView', array(
+	'data'=>$model,
+	'attributes'=>array(
+		
+		'history_campaingname',
+		'history_brand_id',
+		'history_startdate',
+		
+		'history_total',
+		
+		
+	),
+)); ?>
+
+<?php $this->widget('bootstrap.widgets.TbGridView', array(
+	'id'=>'history-contact-grid',
+	'dataProvider'=>  $modelContact->search(),
+	'filter'=>$modelContact,
+	'columns'=>array(
+		
+		'history_contact_hoten',
+		'history_contact_phone',
+		'history_contact_birthday',
+		
+		'history_contact_gender',
+		'history_contact_address',
+		'history_contact_email',
+		'history_contact_company',
+		
+		
+//		array(
+//			'class'=>'CButtonColumn',
+//		),
+	),
+)); 
+
+
+?>
+<script type="text/javascript">
+    function exportExcel()
+    {
+//        alert('tere');
+        var id = <?php echo $model->history_id ?>;
+        window.open('<?php echo $this->createUrl("exportExcel",array('id'=>$model->history_id)) ?>','_target');
+    }
+</script>

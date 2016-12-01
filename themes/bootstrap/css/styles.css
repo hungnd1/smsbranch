@@ -1,0 +1,131 @@
+body{
+    background: #fff url("../images/bg.jpg") repeat scroll left top;
+}
+#page {
+    margin: 70px auto 0;
+}
+#content{
+    min-height: 500px;
+    padding: 20px;  
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px #d3d3d3;
+}
+.highlight{
+    background-color: #f7f7f9;
+    border: px solid #e1e1e8;
+    border-radius: 4px;
+    margin-bottom: 14px;
+    padding: 9px 14px;
+}
+#lb-container-header {
+   background-color: #eeeeee;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px 10px 0 0;
+    height: 38px;
+    margin: -20px -20px 20px;
+    padding: 6px 5px 6px 35px;
+    text-align: right;
+    width: 100%;
+}
+.lb-header-right {
+    color: #777;
+    float: left;
+    text-align: left;
+    width: 50%;
+    
+}
+.lb-header-left {
+    float: left;
+    width: 50%;
+    margin-top: 5px;
+}
+.form-group{
+    padding: 5px;
+}
+.form-group label {
+    display: block;
+    float: left;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: left;
+    width: 13%;
+    font-weight: bold;
+}
+.btn{
+    background-image: none;
+    
+}
+.lb-header-right h3{
+    color: #43A543;
+    line-height: 20px;
+}
+.grid-view{
+    padding-top: 0;
+}
+input.span1, textarea.span1, .uneditable-input.span1 {
+    width: 90px;
+}
+.lb-header-right .editable-click, 
+.lb-header-right a.editable-click, 
+.lb-header-right a.editable-click:hover{
+    color: #43A543;
+}
+
+.datepicker table tr td.active:active, .datepicker table tr td.active:hover:active, .datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active.active, .datepicker table tr td.active.active:hover, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled.active:hover {
+    background: #0088cc;
+    color: #fff;
+}
+.div_content{
+    background: #f6f6f6;
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.hero-unit h1{
+    line-height: 100px;
+    color: #43a543;
+    font-weight: normal;
+    letter-spacing: 0px;
+}
+.hero-unit{
+    background: transparent;
+}
+#footer{
+    text-align: center;
+    margin-top: 10px;
+}
+table.detail-view th, table.detail-view td{
+    padding: 0.6em;
+}
+#telecom-search input{
+    margin-top: 0;
+}
+#telecom-search label{
+    padding-top: 0px;
+}
+.datepicker td, .datepicker th{
+    width: 40px;
+}
+.hero-unit h1{
+        font-size: 80px;
+		font-weight:bold;
+}
+.grid-view{
+    clear:both;
+}
+.datepicker table tr td span{
+    width: 30%;
+}
+.select2-container.span2{
+    margin-left: 0;
+}
+.grid-view th{
+    color: #0088cc;
+}
+.navbar .brand{
+    padding: 5px 0 0 30px;
+	margin-left: -80px;
+}
