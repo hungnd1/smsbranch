@@ -133,6 +133,7 @@ class Members extends CActiveRecord
                             'pagination'=>array(
                                     'pageSize'=>$page,
                             ),
+                        'sort'=>array('defaultOrder'=>'pr_member_data_register desc')
                     ));
                 }
                 else

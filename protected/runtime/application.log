@@ -4739,3 +4739,33 @@ Stack trace:
 REQUEST_URI=/images/bg.jpg
 HTTP_REFERER=http://localhost:8081/css/form_login/demo.css
 ---
+2016/12/02 11:23:23 [error] [exception.CException] CException: Thuộc tính "CSort.0" chưa được định nghĩa. in C:\xampp\htdocs\smsbranch\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\yii\framework\web\CDataProvider.php(154): CComponent->__set('0', 'pr_member_data_...')
+#1 C:\xampp\htdocs\smsbranch\yii\framework\base\CComponent.php(152): CDataProvider->setSort(Array)
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\CActiveDataProvider.php(96): CComponent->__set('sort', Array)
+#3 C:\xampp\htdocs\smsbranch\protected\modules\Members\models\Members.php(132): CActiveDataProvider->__construct(Object(Members), Array)
+#4 C:\xampp\htdocs\smsbranch\protected\modules\Members\views\default\index.php(37): Members->search()
+#5 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#9 C:\xampp\htdocs\smsbranch\protected\components\TBApplication.php(198): CController->render('index', Array, false)
+#10 C:\xampp\htdocs\smsbranch\protected\modules\Members\controllers\DefaultController.php(179): TBApplication::render(Object(DefaultController), 'index', Array)
+#11 C:\xampp\htdocs\smsbranch\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#12 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#21 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Members/default...')
+#22 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/Members/default/index
+HTTP_REFERER=http://localhost:8081/Members/default/create
+---

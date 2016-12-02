@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="56dcd63e-2f94-43fd-90d9-517b7c7c2042" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/Members/models/Members.php" afterPath="$PROJECT_DIR$/protected/modules/Members/models/Members.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
     </list>
     <ignored path="sms.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,16 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/modules/Members/controllers/DefaultController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154">
-              <caret line="171" column="31" selection-start-line="171" selection-start-column="31" selection-end-line="171" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/modules/Members/views/default/index.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,8 +39,8 @@
       <file leaf-file-name="Members.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/modules/Members/models/Members.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33271027">
-              <caret line="104" column="26" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.8411215">
+              <caret line="135" column="54" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -65,7 +57,6 @@
         <option value="$PROJECT_DIR$/protected/config/main.php" />
         <option value="$PROJECT_DIR$/protected/controllers/ContactCategorieController.php" />
         <option value="$PROJECT_DIR$/themes/bootstrap/views/layouts/main.php" />
-        <option value="$PROJECT_DIR$/protected/modules/Members/models/Members.php" />
         <option value="$PROJECT_DIR$/protected/views/brandname/_form.php" />
         <option value="$PROJECT_DIR$/protected/controllers/BrandnameController.php" />
         <option value="$PROJECT_DIR$/protected/models/Brandname.php" />
@@ -75,6 +66,7 @@
         <option value="$PROJECT_DIR$/protected/modules/Members/views/default/index.php" />
         <option value="$PROJECT_DIR$/protected/modules/Members/controllers/DefaultController.php" />
         <option value="$PROJECT_DIR$/protected/modules/Members/models/Roles.php" />
+        <option value="$PROJECT_DIR$/protected/modules/Members/models/Members.php" />
       </list>
     </option>
   </component>
@@ -824,14 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/Members/views/default/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8461537">
-          <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/components/TBApplication.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.7575758">
@@ -842,16 +826,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/Members/controllers/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154">
+        <state vertical-scroll-proportion="0.5719626">
           <caret line="171" column="31" selection-start-line="171" selection-start-column="31" selection-end-line="171" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/Members/views/default/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8461537">
+          <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/Members/models/Members.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33271027">
-          <caret line="104" column="26" selection-start-line="104" selection-start-column="20" selection-end-line="104" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.8411215">
+          <caret line="135" column="54" selection-start-line="135" selection-start-column="54" selection-end-line="135" selection-end-column="54" />
           <folding />
         </state>
       </provider>
