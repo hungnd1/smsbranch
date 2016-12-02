@@ -1,3 +1,9 @@
 # yii console command
 /yii
 assests/*
+thientruong/*
+yii/*
+js/*
+database/*
+cgi-bin/*
+protected/runtime/*
