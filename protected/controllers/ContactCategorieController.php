@@ -62,6 +62,11 @@ class ContactCategorieController extends Controller
 		));
 	}
 
+    public function actionComments(){
+
+        $this->render('view');
+    }
+
 	/**
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.

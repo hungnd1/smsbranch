@@ -21,7 +21,13 @@ class Members extends CActiveRecord
     const SALT="@blueProject@@123";
     const ADMIN = "ADMIN";
     const DAILY = "DAILY";
-    const KHACHHANG = "KHACHHANG";
+    const KHACHHANG_ADMIN = "KHACHHANG_ADMIN";
+    const DAILYCAPDUOI = "DAILYCAPDUOI";
+    const THANHVIEN_KHACHHANGADMIN = "THANHVIEN KHACHHANG ADMIN";
+    const KHACHHANG_DAILY = "KHACHHANGDAILY";
+    const KHACHHANGDAILY_CAPDUOI = "Khach hang dai ly cap duoi";
+    const THANHVIEN_KHACHHANGDAILY = "Thanh vien khach hang dai ly";
+    const THANHVIEN_KHACHHANGDAILYCAPDUOI = "Thanh vien khach hang dai ly cap duoi";
     const ACTIVE = "Hoạt động";
     const NOACTICE = "Bị khóa";
 
@@ -117,7 +123,7 @@ class Members extends CActiveRecord
                 
                 if(Members::model()->getRoleSystem()==Members::DAILY)
                     $criteria->compare('pr_member_parent', YII::app()->user->id);
-                if(Members::model()->getRoleSystem()==Members::KHACHHANG)
+                if(Members::model()->getRoleSystem()==Members::KHACHHANG_ADMIN)
                     $criteria->compare('pr_primary_key',-1);
 
 	        if($page>0)
@@ -334,9 +340,22 @@ class Members extends CActiveRecord
                 elseif($model->pr_roles_id==2)
                 {
                     return self::DAILY;
+                }else if($model->pr_roles_id == 3){
+                    return self::KHACHHANG_ADMIN;
+                } elseif($model->pr_roles_id==4){
+                    return self::DAILYCAPDUOI;
+                }elseif($model->pr_roles_id==5){
+                    return self::THANHVIEN_KHACHHANGADMIN;
+                }elseif($model->pr_roles_id==6){
+                    return self::KHACHHANG_DAILY;
+                }elseif($model->pr_roles_id==7){
+                    return self::KHACHHANGDAILY_CAPDUOI;
+                }elseif($model->pr_roles_id==8){
+                    return self::THANHVIEN_KHACHHANGDAILY;
+                }elseif($model->pr_roles_id==9){
+                    return self::THANHVIEN_KHACHHANGDAILYCAPDUOI;
                 }
-                elseif($model->pr_roles_id==3)
-                    return self::KHACHHANG;
+
             }
             return false;
         }

@@ -20,6 +20,10 @@ class Brandname extends CActiveRecord
 	/**
 	 * @return string the associated database table name
 	 */
+
+	public $sotin ;
+	public $dongia;
+
 	public function tableName()
 	{
 		return 'brandname';
@@ -33,8 +37,8 @@ class Brandname extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('brandname, brand_createdate, brand_status, brand_expires, brand_createby, brand_member, brand_username, brand_password', 'required'),
-			array('brand_status, brand_createby, brand_member', 'numerical', 'integerOnly'=>true),
+			array('brandname,sotin,dongia, brand_createdate, brand_status, brand_expires, brand_createby, brand_member, brand_username, brand_password', 'required'),
+			array('brand_status, brand_createby, brand_member,sotin,dongia', 'numerical', 'integerOnly'=>true),
 			array('brandname', 'length', 'max'=>20),
                         array('brand_username', 'length', 'max'=>50),
                         array('brand_password', 'length', 'max'=>100),
@@ -67,6 +71,8 @@ class Brandname extends CActiveRecord
 			'brand_status' => 'Trạng thái',
 			'brand_expires' => 'Ngày hết hạn',
 			'brand_createby' => 'Brand Createby',
+			'sotin' => 'Số tin',
+			'dongia' => 'Đơn giá',
 			'brand_member' => 'Chủ sở hữu',
                         'brand_username'=>'Tài khoản',
                         'brand_password'=>'Mật khẩu',
@@ -102,6 +108,9 @@ class Brandname extends CActiveRecord
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+			'sort'=>array(
+				'defaultOrder'=>'brand_createdate desc',
+			)
 		));
 	}
 

@@ -10,7 +10,7 @@
     <div class="lb-header-left">
         <?php
             $disable = "style=\"display:none;\" readonly";
-            if(Members::model()->getRoleSystem()==Members::ADMIN || Members::model()->getRoleSystem()==Members::DAILY)
+            if(Members::model()->getRoleSystem()!= Members::THANHVIEN_KHACHHANGADMIN && Members::model()->getRoleSystem()!=Members::THANHVIEN_KHACHHANGDAILY && Members::model()->getRoleSystem()!=Members::THANHVIEN_KHACHHANGDAILYCAPDUOI)
             {
                 $this->widget('bootstrap.widgets.TbButton',array(
                             'label'=>'Thêm thành viên',
@@ -28,7 +28,7 @@
 </div>
 
 <br>
-<?php if(Members::model()->getRoleSystem()!=Members::KHACHHANG)
+<?php if(Members::model()->getRoleSystem()!=Members::KHACHHANG_ADMIN)
 {?>
 <div style="margin-top: 0px;">
     <h3>Khách hàng của tôi</h3>

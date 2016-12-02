@@ -24,7 +24,7 @@
 
 	<p class="note">Các trường đánh dấu <span class="required">*</span> là bắt buộc.</p>
 
-	<?php $rolesArray = Roles::model()->GetRoles(Roles::PR_QUERY_RETURN_TYPE_DROPDOWN_ARRAY);?>
+	<?php $rolesArray = Roles::model()->GetRoles(Roles::PR_QUERY_RETURN_TYPE_DROPDOWN_ARRAY); ?>
 
 	<div>
                 <?php echo $form->textFieldRow($model,'pr_username',array('size'=>60,'maxlength'=>50)); ?>

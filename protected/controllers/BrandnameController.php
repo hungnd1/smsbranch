@@ -74,7 +74,7 @@ class BrandnameController extends Controller
                         $model->brand_status=1;
                         $model->brand_createdate=date('Y-m-d');
                         $model->brand_expires = date('Y-m-d',  strtotime($_POST['Brandname']['brand_expires']));
-                        $model->brand_balance = $_POST['Brandname']['brand_balance'];
+                        $model->brand_balance = $_POST['Brandname']['sotin'] * $_POST['Brandname']['dongia'];
 			if($model->save())
 				$this->redirect(array('admin'));
 		}
@@ -100,7 +100,7 @@ class BrandnameController extends Controller
 		{
 			$model->attributes=$_POST['Brandname'];
                         $model->brand_expires = date('Y-m-d',  strtotime($_POST['Brandname']['brand_expires']));
-                        $model->brand_balance = $_POST['Brandname']['brand_balance'];
+                        $model->brand_balance = $_POST['Brandname']['sotin'] * $_POST['Brandname']['dongia'];
 			if($model->save())
 				$this->redirect(array('admin'));
 		}

@@ -8,6 +8,7 @@
  * @property string $pr_roles_name
  * @property string $pr_roles_description
  * @property integer $pr_roles_status
+ * @property integer $pr_parent
  */
 class Roles extends CActiveRecord
 {
@@ -31,12 +32,12 @@ class Roles extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			//array('pr_primary_key', 'required'),
-			array('pr_roles_status', 'numerical', 'integerOnly'=>true),
+			array('pr_roles_status,pr_parent', 'numerical', 'integerOnly'=>true),
 			array('pr_roles_name', 'length', 'max'=>100),
 			array('pr_roles_description', 'length', 'max'=>255),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('pr_primary_key, pr_roles_name, pr_roles_description, pr_roles_status', 'safe', 'on'=>'search'),
+			array('pr_primary_key,pr_parent, pr_roles_name, pr_roles_description, pr_roles_status', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -107,10 +108,28 @@ class Roles extends CActiveRecord
         {
             $criteria = new CDbCriteria();
             $criteria->compare('pr_roles_status','1');
-            if(Members::model()->getRoleSystem()==Members::DAILY)
-                $criteria->compare('pr_primary_key','3');
-            if(Members::model()->getRoleSystem()==Members::KHACHHANG)
-                $criteria->compare('pr_primary_key','-1');
+			if(Members::model()->getRoleSystem() == Members::ADMIN){
+				$criteria->compare('pr_parent','1');
+			}
+            if(Members::model()->getRoleSystem()==Members::DAILY){
+				$criteria->compare('pr_parent','2');
+			}
+
+            if(Members::model()->getRoleSystem()==Members::KHACHHANG_ADMIN){
+				$criteria->compare('pr_parent','3');
+			}
+
+			if(Members::model()->getRoleSystem()==Members::KHACHHANG_DAILY){
+				$criteria->compare('pr_parent','6');
+			}
+
+			if(Members::model()->getRoleSystem()==Members::DAILYCAPDUOI){
+				$criteria->compare('pr_parent','4');
+			}
+
+			if(Members::model()->getRoleSystem()==Members::KHACHHANGDAILY_CAPDUOI){
+				$criteria->compare('pr_parent','7');
+			}
             
             $dataProvider = new CActiveDataProvider($this,array('criteria'=>$criteria));
             if($return_type=='DataProvider')

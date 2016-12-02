@@ -37,9 +37,15 @@
 		<?php echo $form->error($model,'brand_password'); ?>
 	</div>
 	<div class="form-group">
-		<?php echo $form->labelEx($model,'brand_balance'); ?>
-		<?php echo $form->textField($model,'brand_balance',array('size'=>20,'maxlength'=>12,'class'=>'span3')); ?>
-		<?php echo $form->error($model,'brand_balance'); ?>
+		<?php echo $form->labelEx($model,'sotin'); ?>
+		<?php echo $form->textField($model,'sotin',array('size'=>20,'maxlength'=>12,'class'=>'span3')); ?>
+		<?php echo $form->error($model,'sotin'); ?>
+	</div>
+
+	<div class="form-group">
+		<?php echo $form->labelEx($model,'dongia'); ?>
+		<?php echo $form->textField($model,'dongia',array('size'=>20,'maxlength'=>12,'class'=>'span3')); ?>
+		<?php echo $form->error($model,'dongia'); ?>
 	</div>
         
 	<div class="form-group">

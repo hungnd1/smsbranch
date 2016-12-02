@@ -107,11 +107,11 @@ class PrRoles extends CActiveRecord
         {
             $criteria = new CDbCriteria();
             $criteria->compare('pr_roles_status','1');
-            if(Members::model()->getRoleSystem()==Members::DAILY)
+            if(Members::model()->getRoleSystem()==Members::ADMIN)
                 $criteria->compare('pr_roles_id','3');
-            if(Members::model()->getRoleSystem()==Members::KHACHHANG)
+            if(Members::model()->getRoleSystem()==Members::KHACHHANG_ADMIN)
                 $criteria->compare('pr_roles_id','-1');
-            
+
             $dataProvider = new CActiveDataProvider($this,array('criteria'=>$criteria));
             if($return_type=='DataProvider')
             {

@@ -69,6 +69,7 @@ return array(
                                 'historys'=>'History/admin',
                                 'contacts'=>'ContactCategorie/admin',
                                 'templates'=>'TemplateSms/admin',
+								'comments'=>'ContactCategorie/comments',
                                 'templates/<action:\w+>'=>'TemplateSms/<action>',
                                 'send/type/<type:\w+>'=>'History/Create/type/<type>',
                                 'report-day'=>'HistoryContact/report',

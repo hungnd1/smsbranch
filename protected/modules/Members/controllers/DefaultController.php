@@ -79,7 +79,7 @@ class DefaultController extends Controller
                         $password = $post_member['pr_member_password'];
                         $email = $post_member['pr_member_email'];
                         $model->pr_username = $post_member['pr_username'];
-			$model->pr_member_email=$email;
+			            $model->pr_member_email=$email;
                         $model->pr_member_password=$password;
                         $model->pr_pass = $password;
                         //$model->pr_member_password="2123";
