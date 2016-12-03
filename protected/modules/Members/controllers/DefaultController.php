@@ -33,7 +33,7 @@ class DefaultController extends Controller
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
 				'actions'=>array('create','update','UploadMember','changePassword','updateAccount','updateInformation','delete','UpdateField',
-                                    'clockMember'),
+                                    'clockMember','updateMember'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -363,5 +363,27 @@ class DefaultController extends Controller
                     echo '{"status":"unclock"}';
             }
         }
+
+        function actionUpdateMember(){
+            if(isset($_POST['number_sms']) && isset($_POST['is_fix']) && isset($_POST['arr_member'])){
+                $result = 0;
+                for($i=0; $i< sizeof($_POST['arr_member']); $i++){
+                    $model = Members::model()->findByPk($_POST['arr_member'][$i]);
+                    $model->number_sms = $_POST['number_sms'];
+                    $model->is_fix = $_POST['is_fix'];
+                    if($model->save()){
+                        $result  = 1;
+                    }else{
+                        $result = 0;
+                        break;
+                    }
+                }
+                if($result){
+                    echo '{"status":"ok"}';
+                }else
+                    echo '{"status":"nok"}';
+            }
+        }
+
         
 }

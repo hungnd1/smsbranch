@@ -4769,3 +4769,592 @@ Stack trace:
 REQUEST_URI=/Members/default/index
 HTTP_REFERER=http://localhost:8081/Members/default/create
 ---
+2016/12/02 12:05:18 [error] [exception.Error] Error: Undefined class constant 'KHACHHANG' in C:\xampp\htdocs\smsbranch\protected\views\contactCategorie\admin.php:24
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#4 C:\xampp\htdocs\smsbranch\protected\controllers\ContactCategorieController.php(219): CController->render('admin', Array)
+#5 C:\xampp\htdocs\smsbranch\yii\framework\web\actions\CInlineAction.php(49): ContactCategorieController->actionAdmin()
+#6 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#15 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ContactCategori...')
+#16 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/contacts
+HTTP_REFERER=http://localhost:8081/Members/default/index
+---
+2016/12/02 12:05:28 [error] [exception.Error] Error: Undefined class constant 'KHACHHANG' in C:\xampp\htdocs\smsbranch\protected\views\history\_search.php:17
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\smsbranch\protected\views\history\admin.php(27): CController->renderPartial('_search', Array)
+#4 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#8 C:\xampp\htdocs\smsbranch\protected\controllers\HistoryController.php(424): CController->render('admin', Array)
+#9 C:\xampp\htdocs\smsbranch\yii\framework\web\actions\CInlineAction.php(49): HistoryController->actionAdmin()
+#10 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#19 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('History/admin')
+#20 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/historys
+HTTP_REFERER=http://localhost:8081/Members/default/index
+---
+2016/12/02 13:30:49 [error] [exception.CException] CException: Alias "booster.widgets.TbModal" không hợp lệ . Hãy chắc rằng nó trỏ tới thư mục hoặc file có tồn tại. in C:\xampp\htdocs\smsbranch\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('booster.widgets...', true)
+#1 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(DefaultController), 'booster.widgets...', Array)
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(189): CBaseController->createWidget('booster.widgets...', Array)
+#3 C:\xampp\htdocs\smsbranch\protected\modules\Members\views\default\index.php(40): CBaseController->beginWidget('booster.widgets...', Array)
+#4 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\xampp\htdocs\smsbranch\protected\components\TBApplication.php(198): CController->render('index', Array, false)
+#9 C:\xampp\htdocs\smsbranch\protected\modules\Members\controllers\DefaultController.php(179): TBApplication::render(Object(DefaultController), 'index', Array)
+#10 C:\xampp\htdocs\smsbranch\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#11 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#20 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Members/default...')
+#21 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/Members/default/index
+HTTP_REFERER=http://localhost:8081/Members/default/create
+---
+2016/12/02 13:31:23 [error] [exception.CException] CException: Thuộc tính "TbButton.context" chưa được định nghĩa. in C:\xampp\htdocs\smsbranch\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('context', 'primary')
+#1 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(DefaultController), 'TbButton', Array)
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\smsbranch\protected\modules\Members\views\default\index.php(56): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\xampp\htdocs\smsbranch\protected\components\TBApplication.php(198): CController->render('index', Array, false)
+#9 C:\xampp\htdocs\smsbranch\protected\modules\Members\controllers\DefaultController.php(179): TBApplication::render(Object(DefaultController), 'index', Array)
+#10 C:\xampp\htdocs\smsbranch\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#11 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#20 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Members/default...')
+#21 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/Members/default/index
+HTTP_REFERER=http://localhost:8081/Members/default/create
+---
+2016/12/02 13:33:38 [error] [exception.CException] CException: Alias "booster.widgets.TbModal" không hợp lệ . Hãy chắc rằng nó trỏ tới thư mục hoặc file có tồn tại. in C:\xampp\htdocs\smsbranch\yii\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\yii\framework\web\CWidgetFactory.php(146): YiiBase::import('booster.widgets...', true)
+#1 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(DefaultController), 'booster.widgets...', Array)
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(189): CBaseController->createWidget('booster.widgets...', Array)
+#3 C:\xampp\htdocs\smsbranch\protected\modules\Members\views\default\index.php(40): CBaseController->beginWidget('booster.widgets...', Array)
+#4 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\xampp\htdocs\smsbranch\protected\components\TBApplication.php(198): CController->render('index', Array, false)
+#9 C:\xampp\htdocs\smsbranch\protected\modules\Members\controllers\DefaultController.php(179): TBApplication::render(Object(DefaultController), 'index', Array)
+#10 C:\xampp\htdocs\smsbranch\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#11 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#20 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Members/default...')
+#21 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/Members/default/index
+HTTP_REFERER=http://localhost:8081/Members/default/create
+---
+2016/12/02 13:36:46 [error] [exception.CException] CException: Thuộc tính "TbButton.context" chưa được định nghĩa. in C:\xampp\htdocs\smsbranch\yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\yii\framework\web\CWidgetFactory.php(161): CComponent->__set('context', 'primary')
+#1 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(DefaultController), 'TbButton', Array)
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\smsbranch\protected\modules\Members\views\default\index.php(56): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#8 C:\xampp\htdocs\smsbranch\protected\components\TBApplication.php(198): CController->render('index', Array, false)
+#9 C:\xampp\htdocs\smsbranch\protected\modules\Members\controllers\DefaultController.php(179): TBApplication::render(Object(DefaultController), 'index', Array)
+#10 C:\xampp\htdocs\smsbranch\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#11 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#13 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#20 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Members/default...')
+#21 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/Members/default/index
+HTTP_REFERER=http://localhost:8081/Members/default/create
+---
+2016/12/02 13:52:51 [error] [exception.ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in C:\xampp\htdocs\smsbranch\protected\modules\Members\views\default\index.php:57
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#3 C:\xampp\htdocs\smsbranch\protected\components\TBApplication.php(198): CController->render('index', Array, false)
+#4 C:\xampp\htdocs\smsbranch\protected\modules\Members\controllers\DefaultController.php(179): TBApplication::render(Object(DefaultController), 'index', Array)
+#5 C:\xampp\htdocs\smsbranch\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#6 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#15 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Members/default...')
+#16 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Members/default/index
+HTTP_REFERER=http://localhost:8081/Members/default/create
+---
+2016/12/02 13:54:39 [error] [exception.CException] CException: Thuộc tính "Members.label_name" chưa được định nghĩa. in C:\xampp\htdocs\smsbranch\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('label_name')
+#1 C:\xampp\htdocs\smsbranch\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('label_name')
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\helpers\CHtml.php(1743): CHtml::resolveValue(Object(Members), 'label_name')
+#3 C:\xampp\htdocs\smsbranch\yii\framework\web\widgets\CActiveForm.php(831): CHtml::activeCheckBox(Object(Members), 'label_name', Array)
+#4 C:\xampp\htdocs\smsbranch\protected\modules\Members\views\default\index.php(57): CActiveForm->checkBox(Object(Members), 'label_name', Array)
+#5 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#9 C:\xampp\htdocs\smsbranch\protected\components\TBApplication.php(198): CController->render('index', Array, false)
+#10 C:\xampp\htdocs\smsbranch\protected\modules\Members\controllers\DefaultController.php(179): TBApplication::render(Object(DefaultController), 'index', Array)
+#11 C:\xampp\htdocs\smsbranch\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#12 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#19 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#21 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Members/default...')
+#22 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/Members/default/index
+HTTP_REFERER=http://localhost:8081/Members/default/create
+---
+2016/12/02 13:56:56 [error] [exception.ParseError] ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in C:\xampp\htdocs\smsbranch\protected\modules\Members\views\default\index.php:57
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#1 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#3 C:\xampp\htdocs\smsbranch\protected\components\TBApplication.php(198): CController->render('index', Array, false)
+#4 C:\xampp\htdocs\smsbranch\protected\modules\Members\controllers\DefaultController.php(179): TBApplication::render(Object(DefaultController), 'index', Array)
+#5 C:\xampp\htdocs\smsbranch\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#6 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#15 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Members/default...')
+#16 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/Members/default/index
+HTTP_REFERER=http://localhost:8081/Members/default/create
+---
+2016/12/02 14:16:40 [error] [exception.CException] CException: TbActiveForm and its behaviors do not have a method or closure named "toggleButtonRow". in C:\xampp\htdocs\smsbranch\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\protected\modules\Members\views\default\index.php(57): CComponent->__call('toggleButtonRow', Array)
+#1 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#5 C:\xampp\htdocs\smsbranch\protected\components\TBApplication.php(198): CController->render('index', Array, false)
+#6 C:\xampp\htdocs\smsbranch\protected\modules\Members\controllers\DefaultController.php(179): TBApplication::render(Object(DefaultController), 'index', Array)
+#7 C:\xampp\htdocs\smsbranch\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#8 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#17 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Members/default...')
+#18 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/Members/default/index
+HTTP_REFERER=http://localhost:8081/Members/default/create
+---
+2016/12/02 14:18:37 [error] [exception.CException] CException: TbActiveForm and its behaviors do not have a method or closure named "field". in C:\xampp\htdocs\smsbranch\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\protected\modules\Members\views\default\index.php(57): CComponent->__call('field', Array)
+#1 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#5 C:\xampp\htdocs\smsbranch\protected\components\TBApplication.php(198): CController->render('index', Array, false)
+#6 C:\xampp\htdocs\smsbranch\protected\modules\Members\controllers\DefaultController.php(179): TBApplication::render(Object(DefaultController), 'index', Array)
+#7 C:\xampp\htdocs\smsbranch\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#8 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#17 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Members/default...')
+#18 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/Members/default/index
+HTTP_REFERER=http://localhost:8081/Members/default/create
+---
+2016/12/02 15:01:36 [error] [exception.CException] CException: TbActiveForm and its behaviors do not have a method or closure named "toggleButtonRow". in C:\xampp\htdocs\smsbranch\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\protected\modules\Members\views\default\index.php(59): CComponent->__call('toggleButtonRow', Array)
+#1 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#5 C:\xampp\htdocs\smsbranch\protected\components\TBApplication.php(198): CController->render('index', Array, false)
+#6 C:\xampp\htdocs\smsbranch\protected\modules\Members\controllers\DefaultController.php(179): TBApplication::render(Object(DefaultController), 'index', Array)
+#7 C:\xampp\htdocs\smsbranch\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#8 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#17 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Members/default...')
+#18 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/Members/default/index
+HTTP_REFERER=http://localhost:8081/Members/default/create
+---
+2016/12/02 15:05:32 [error] [exception.CException] CException: TbActiveForm and its behaviors do not have a method or closure named "toggleButtonRow". in C:\xampp\htdocs\smsbranch\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\protected\modules\Members\views\default\index.php(59): CComponent->__call('toggleButtonRow', Array)
+#1 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#5 C:\xampp\htdocs\smsbranch\protected\components\TBApplication.php(198): CController->render('index', Array, false)
+#6 C:\xampp\htdocs\smsbranch\protected\modules\Members\controllers\DefaultController.php(179): TBApplication::render(Object(DefaultController), 'index', Array)
+#7 C:\xampp\htdocs\smsbranch\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#8 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#17 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Members/default...')
+#18 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/Members/default/index
+HTTP_REFERER=http://localhost:8081/Members/default/create
+---
+2016/12/02 15:11:09 [error] [exception.CException] CException: TbActiveForm and its behaviors do not have a method or closure named "toggleButtonRow". in C:\xampp\htdocs\smsbranch\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\protected\modules\Members\views\default\index.php(59): CComponent->__call('toggleButtonRow', Array)
+#1 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#5 C:\xampp\htdocs\smsbranch\protected\components\TBApplication.php(198): CController->render('index', Array, false)
+#6 C:\xampp\htdocs\smsbranch\protected\modules\Members\controllers\DefaultController.php(179): TBApplication::render(Object(DefaultController), 'index', Array)
+#7 C:\xampp\htdocs\smsbranch\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#8 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#17 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Members/default...')
+#18 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/Members/default/index
+HTTP_REFERER=http://localhost:8081/Members/default/create
+---
+2016/12/02 15:14:09 [error] [exception.CException] CException: TbActiveForm and its behaviors do not have a method or closure named "toggleButtonRow". in C:\xampp\htdocs\smsbranch\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\protected\modules\Members\views\default\index.php(59): CComponent->__call('toggleButtonRow', Array)
+#1 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#5 C:\xampp\htdocs\smsbranch\protected\components\TBApplication.php(198): CController->render('index', Array, false)
+#6 C:\xampp\htdocs\smsbranch\protected\modules\Members\controllers\DefaultController.php(179): TBApplication::render(Object(DefaultController), 'index', Array)
+#7 C:\xampp\htdocs\smsbranch\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#8 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#17 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Members/default...')
+#18 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/Members/default/index
+HTTP_REFERER=http://localhost:8081/Members/default/create
+---
+2016/12/02 15:26:35 [error] [exception.CException] CException: TbActiveForm and its behaviors do not have a method or closure named "toggleButtonRow". in C:\xampp\htdocs\smsbranch\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\protected\modules\Members\views\default\index.php(59): CComponent->__call('toggleButtonRow', Array)
+#1 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#5 C:\xampp\htdocs\smsbranch\protected\components\TBApplication.php(198): CController->render('index', Array, false)
+#6 C:\xampp\htdocs\smsbranch\protected\modules\Members\controllers\DefaultController.php(179): TBApplication::render(Object(DefaultController), 'index', Array)
+#7 C:\xampp\htdocs\smsbranch\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#8 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('index')
+#17 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Members/default...')
+#18 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/Members/default/index
+HTTP_REFERER=http://localhost:8081/Members/default/create
+---
+2016/12/03 10:34:32 [error] [exception.CHttpException.404] CHttpException: Không thể giải quyết yêu cầu "images/bg.jpg". in C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bg.jpg')
+#1 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg.jpg
+HTTP_REFERER=http://localhost:8081/css/form_login/demo.css
+---
+2016/12/03 10:36:00 [error] [exception.CException] CException: TbActiveForm and its behaviors do not have a method or closure named "toggleButtonRow". in C:\xampp\htdocs\smsbranch\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\protected\modules\Members\views\default\index.php(59): CComponent->__call('toggleButtonRow', Array)
+#1 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#5 C:\xampp\htdocs\smsbranch\protected\components\TBApplication.php(198): CController->render('index', Array, false)
+#6 C:\xampp\htdocs\smsbranch\protected\modules\Members\controllers\DefaultController.php(179): TBApplication::render(Object(DefaultController), 'index', Array)
+#7 C:\xampp\htdocs\smsbranch\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#8 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('')
+#17 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Members')
+#18 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/Members
+HTTP_REFERER=http://localhost:8081/site/index
+---
+2016/12/03 11:02:42 [error] [exception.CException] CException: Thuộc tính "Members.pr_member_profile_display_name" chưa được định nghĩa. in C:\xampp\htdocs\smsbranch\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('pr_member_profi...')
+#1 C:\xampp\htdocs\smsbranch\yii\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('pr_member_profi...')
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(Members), 'pr_member_profi...')
+#3 C:\xampp\htdocs\smsbranch\yii\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Members), 'pr_member_profi...', Array)
+#4 C:\xampp\htdocs\smsbranch\yii\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Members), 'pr_member_profi...', Array)
+#5 C:\xampp\htdocs\smsbranch\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(181): CActiveForm->textField(Object(Members), 'pr_member_profi...', Array)
+#6 C:\xampp\htdocs\smsbranch\protected\extensions\bootstrap\widgets\input\TbInput.php(230): TbInputHorizontal->textField()
+#7 C:\xampp\htdocs\smsbranch\protected\extensions\bootstrap\widgets\input\TbInputHorizontal.php(24): TbInput->run()
+#8 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(173): TbInputHorizontal->run()
+#9 C:\xampp\htdocs\smsbranch\protected\extensions\bootstrap\widgets\TbActiveForm.php(496): CBaseController->widget('bootstrap.widge...', Array)
+#10 C:\xampp\htdocs\smsbranch\protected\extensions\bootstrap\widgets\TbActiveForm.php(186): TbActiveForm->inputRow('text', Object(Members), 'pr_member_profi...', NULL, Array)
+#11 C:\xampp\htdocs\smsbranch\protected\modules\Members\views\default\index.php(67): TbActiveForm->textFieldRow(Object(Members), 'pr_member_profi...')
+#12 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#15 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#16 C:\xampp\htdocs\smsbranch\protected\components\TBApplication.php(198): CController->render('index', Array, false)
+#17 C:\xampp\htdocs\smsbranch\protected\modules\Members\controllers\DefaultController.php(179): TBApplication::render(Object(DefaultController), 'index', Array)
+#18 C:\xampp\htdocs\smsbranch\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#19 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#20 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#21 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#22 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#23 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#24 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#25 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#26 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('')
+#28 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Members')
+#29 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#30 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/Members
+---
+2016/12/03 11:07:45 [error] [exception.Error] Error: Call to a member function label() on string in C:\xampp\htdocs\smsbranch\protected\modules\Members\views\default\index.php:62
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#4 C:\xampp\htdocs\smsbranch\protected\components\TBApplication.php(198): CController->render('index', Array, false)
+#5 C:\xampp\htdocs\smsbranch\protected\modules\Members\controllers\DefaultController.php(179): TBApplication::render(Object(DefaultController), 'index', Array)
+#6 C:\xampp\htdocs\smsbranch\yii\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#7 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#14 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Members')
+#17 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/Members
+---
+2016/12/03 11:32:05 [error] [exception.CHttpException.403] CHttpException: Bạn không có quyền để thực hiện hành động này. in C:\xampp\htdocs\smsbranch\yii\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\yii\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'B\xE1\xBA\xA1n kh\xC3\xB4ng c\xC3...')
+#1 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('updateMember')
+#8 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('Members/default...')
+#9 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/Members/default/updateMember
+HTTP_REFERER=http://localhost:8081/Members
+---
+2016/12/03 11:43:42 [error] [exception.CHttpException.404] CHttpException: Không thể giải quyết yêu cầu "debug". in C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('debug')
+#1 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/debug
+---
+2016/12/03 11:43:49 [error] [exception.CHttpException.404] CHttpException: Không thể giải quyết yêu cầu "default/debug". in C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('default/debug')
+#1 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/default/debug
+---
+2016/12/03 11:55:14 [error] [exception.Error] Error: Undefined class constant 'KHACHHANG' in C:\xampp\htdocs\smsbranch\protected\views\contactCategorie\admin.php:24
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(126): require()
+#1 C:\xampp\htdocs\smsbranch\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#2 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#4 C:\xampp\htdocs\smsbranch\protected\controllers\ContactCategorieController.php(219): CController->render('admin', Array)
+#5 C:\xampp\htdocs\smsbranch\yii\framework\web\actions\CInlineAction.php(49): ContactCategorieController->actionAdmin()
+#6 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#8 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#9 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#11 C:\xampp\htdocs\smsbranch\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#12 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(291): CFilterChain->run()
+#13 C:\xampp\htdocs\smsbranch\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#15 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('ContactCategori...')
+#16 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/contacts
+HTTP_REFERER=http://localhost:8081/Members
+---
+2016/12/03 11:57:00 [error] [exception.CHttpException.404] CHttpException: Không thể giải quyết yêu cầu "images/bg.jpg". in C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\smsbranch\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('images/bg.jpg')
+#1 C:\xampp\htdocs\smsbranch\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\smsbranch\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/images/bg.jpg
+HTTP_REFERER=http://localhost:8081/css/form_login/demo.css
+---

@@ -1,6 +1,7 @@
 <?php
 /* @var $this MembersController */
 /* @var $dataProvider CActiveDataProvider */
+/* @var $model Members */
 
 ?>
 <div id="lb-container-header">
@@ -24,10 +25,71 @@
                 $disable="";
             }
         ?>
+        <?php if(Members::model()->getRoleSystem()== Members::KHACHHANG_ADMIN || Members::model()->getRoleSystem()==Members::KHACHHANG_DAILY || Members::model()->getRoleSystem()==Members::KHACHHANGDAILY_CAPDUOI){ ?>
+        <?php $this->widget('bootstrap.widgets.TbButton', array(
+            'buttonType' => 'submit',
+            'htmlOptions' => array('onclick' => 'create()'),
+            'type' => 'primary',
+            'label' => 'Cấu hình tài khoản',
+        ));
+        ?>
+        <?php } ?>
     </div>
 </div>
-
 <br>
+<?php $this->beginWidget(
+    'bootstrap.widgets.TbModal',
+    array('id' => 'myModal')
+); ?>
+
+<div class="modal-header">
+    <a class="close" data-dismiss="modal">&times;</a>
+    <h4>Modal header</h4>
+</div>
+
+<div class="modal-body">
+    <?php $form=$this->beginWidget('bootstrap.widgets.TbActiveForm', array(
+        'id'=>'members-form',
+        'type'=>'horizontal',
+        'enableAjaxValidation'=>true,
+        'enableClientValidation'=>true,
+    )); ?>
+    <div class="row" style='float:left;margin-left:57px;margin-bottom: 20px;'>
+        <?php echo $form->checkBox($model,'is_fix', array('id'=>'checkbox1','value' => 'Y', 'uncheckvalue'=>'N')); ?>
+        <?php echo '<span for="label" style="margin-bottom:5px;font-size: 0.9em;font-weight: bold;">Cho phép thành viên sửa điểm của tất cả cac môn trong lớp</span><br />'; ?>
+        <?php echo $form->error($model,'is_fix'); ?>
+    </div>
+
+    <div class="row" style='float:left;;margin-left:5px'>
+        <?php echo $form->textFieldRow($model,'number_sms',array('id'=>'number_sms')); ?>
+        <?php echo $form->error($model,'number_sms'); ?>
+    </div>
+
+    <?php $this->endWidget(); ?>
+</div>
+
+<div class="modal-footer">
+    <?php $this->widget(
+        'bootstrap.widgets.TbButton',
+        array(
+            'type' => 'primary',
+            'label' => 'Thay đổi',
+            'url' => '#',
+            'htmlOptions' => array('onclick' => 'refresh()'),
+        )
+    ); ?>
+    <?php $this->widget(
+        'bootstrap.widgets.TbButton',
+        array(
+            'label' => 'Hủy',
+            'url' => '#',
+            'htmlOptions' => array('data-dismiss' => 'modal'),
+        )
+    ); ?>
+</div>
+
+<?php $this->endWidget(); ?>
+
 <?php if(Members::model()->getRoleSystem()!=Members::KHACHHANG_ADMIN)
 {?>
 <div style="margin-top: 0px;">
@@ -36,8 +98,20 @@
         'id'=>'gridview-members-my',
 	'dataProvider'=>$modelAll->search(),
 	'type'=>'striped bordered condensed',
+        'summaryText' => "Hiển thị {start}-{end} của {count} kết quả",
+        'emptyText'=>'Không tìm thấy kết quả phù hợp!',
         'template'=>"{items}{pager}",
         'columns'=>array(
+            array(
+                'header'=>'html',
+                'id'=>'state_id',
+                'class'=>'CCheckBoxColumn',
+                'selectableRows' => '50',
+                'selectableRows'=>2,
+                'value'=>'$data->pr_primary_key',
+                'headerTemplate'=>'<label>{item}<span></span></label>',
+                'htmlOptions'=>array('style'=>'width: 20px'),
+            ),
             array(
                 'header'=>'STT',
                 'type'=>'raw',
@@ -60,6 +134,18 @@
                 'type'=>'raw',
                 'name'=>'pr_member_email',
                 'value'=>'$data->pr_member_email',
+            ),
+            array(
+                'header'=>'Số tin tối đa',
+                'type'=>'raw',
+                'name'=>'number_sms',
+                'value'=>'$data->number_sms',
+            ),
+            array(
+                'header'=>'Cấu hình sửa điểm',
+                'type'=>'raw',
+                'name'=>'is_fix',
+                'value'=>'$data->is_fix == 0 ? "Được sửa điểm" : "Không được sửa điểm"',
             ),
             array(
                 'header'=>'Quyền',
@@ -194,4 +280,58 @@
             }
         });
     }
+</script>
+<script>
+    function create(){
+        var cboxes = document.getElementsByName('state_id[]');
+        var len = cboxes.length;
+        var arr = [];
+        for (var i=0; i<len; i++) {
+            if(cboxes[i].checked) {
+                arr.push(cboxes[i].value);
+            }
+        }
+        if(arr.length == 0){
+            alert('Bạn chưa chọn tài khoản nào');
+            return;
+        }else{
+            $('#myModal').modal('show');
+        }
+    }
+</script>
+
+<script>
+    function refresh() {
+        var is_fix = 0;
+        var cboxes = document.getElementsByName('state_id[]');
+        var len = cboxes.length;
+        var arr = [];
+        for (var i=0; i<len; i++) {
+            if(cboxes[i].checked) {
+                arr.push(cboxes[i].value);
+            }
+        }
+        $("#checkbox1").attr("checked") ? is_fix = 1 : is_fix = 0 ;
+        var number_sms = $("#number_sms").val() ? $("#number_sms").val() : 0;
+        $.ajax({
+            type:'POST',
+            url:'<?php echo $this->createUrl('updateMember'); ?>',
+            beforeSend: function(){
+                //code;
+            },
+            data:{number_sms:number_sms,is_fix:is_fix,arr_member:arr},
+            success: function(data){
+                var responseJSON = jQuery.parseJSON(data);
+                if(responseJSON.status=="ok"){
+                    alert('Cập nhật thành công.');
+                    location.reload();
+                }
+                else{
+                    alert('Cập nhật thất bại');
+                }
+            }
+        });
+
+    }
+
 </script>

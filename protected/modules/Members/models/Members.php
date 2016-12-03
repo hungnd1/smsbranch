@@ -15,6 +15,8 @@
  * @property string $pr_username
  * @property integer $pr_member_parent
  * @property integer $pr_pass Description
+ * @property integer $number_sms
+ * @property integer $is_fix
  */
 class Members extends CActiveRecord
 {
@@ -48,7 +50,7 @@ class Members extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('pr_roles_id,pr_member_email, pr_member_password, pr_member_rand_key, pr_member_data_register, pr_member_active,pr_username', 'required'),
-			array('pr_roles_id, pr_member_status, pr_member_active, pr_member_parent', 'numerical', 'integerOnly'=>true),
+			array('pr_roles_id, pr_member_status, pr_member_active, pr_member_parent,number_sms,is_fix', 'numerical', 'integerOnly'=>true),
 			array('pr_member_email, pr_member_password, pr_member_rand_key', 'length', 'max'=>255),
                         array('pr_username,pr_pass', 'length','min' => 4, 'max'=>50),
                         array('pr_member_email','email','message'=>'Email không hợp lệ'),
@@ -81,6 +83,8 @@ class Members extends CActiveRecord
 			'pr_primary_key' => 'Pr Primary Key',
 			'pr_roles_id' => 'Quyền',
 			'pr_member_email' => 'Email',
+            'number_sms' => 'Số tin nhắn tối đa',
+            'is_fix' => 'Cấu hình sửa điểm',
 			'pr_member_password' => 'Mật khẩu',
 			'pr_member_status' => 'Trạng thái',
 			'pr_member_rand_key' => 'Pr Member Rand Key',
