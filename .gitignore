@@ -7,3 +7,4 @@ js/*
 database/*
 cgi-bin/*
 protected/runtime/*
+.idea/*
