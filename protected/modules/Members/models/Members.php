@@ -21,15 +21,15 @@
 class Members extends CActiveRecord
 {
     const SALT="@blueProject@@123";
-    const ADMIN = "ADMIN";
-    const DAILY = "DAILY";
-    const KHACHHANG_ADMIN = "KHACHHANG_ADMIN";
-    const DAILYCAPDUOI = "DAILYCAPDUOI";
-    const THANHVIEN_KHACHHANGADMIN = "THANHVIEN KHACHHANG ADMIN";
-    const KHACHHANG_DAILY = "KHACHHANGDAILY";
-    const KHACHHANGDAILY_CAPDUOI = "Khach hang dai ly cap duoi";
-    const THANHVIEN_KHACHHANGDAILY = "Thanh vien khach hang dai ly";
-    const THANHVIEN_KHACHHANGDAILYCAPDUOI = "Thanh vien khach hang dai ly cap duoi";
+    const ADMIN = "Admin";
+    const DAILY = "Đại lý";
+    const KHACHHANG_ADMIN = "Khách hàng dưới quyền admin";
+    const DAILYCAPDUOI = "Đại lý cấp dưới";
+    const THANHVIEN_KHACHHANGADMIN = "Thành viên dưới quyền khách hàng admin";
+    const KHACHHANG_DAILY = "Khách hàng dưới quyền đại lý";
+    const KHACHHANGDAILY_CAPDUOI = "Khách hàng dưới quyền đại lý cấp dưới";
+    const THANHVIEN_KHACHHANGDAILY = "Thành viên dưới quyền khách hàng của đại lý";
+    const THANHVIEN_KHACHHANGDAILYCAPDUOI = "Thành viên dưới quyền khách hàng của đại lý cấp dưới";
     const ACTIVE = "Hoạt động";
     const NOACTICE = "Bị khóa";
 

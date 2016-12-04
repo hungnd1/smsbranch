@@ -21,7 +21,7 @@ $('.search-form form').submit(function(){
 });
 ");
 ?>
-<?php if(Members::model()->getRoleSystem(YII::app()->user->id)!=Members::KHACHHANG) { ?>
+<?php if(Members::model()->getRoleSystem(YII::app()->user->id)!=Members::KHACHHANG_ADMIN && Members::model()->getRoleSystem(YII::app()->user->id)!=Members::KHACHHANG_DAILY && Members::model()->getRoleSystem(YII::app()->user->id)!=Members::KHACHHANGDAILY_CAPDUOI) { ?>
 <div class="search-form" style="display:block">
 <?php  $this->renderPartial('_search'); ?>
 </div> <!--search-form -->

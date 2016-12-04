@@ -37,7 +37,8 @@ class Contact extends CActiveRecord
 		return array(
 			array('', 'required'),
 			array('category_id, member_createby', 'numerical', 'integerOnly'=>true),
-			array('contact_ho,contact_ten', 'length', 'max'=>50),
+			array('contact_ho', 'length', 'max'=>50),
+			array('contact_ten', 'length', 'max'=>250),
 			array('contact_phone', 'length', 'max'=>15),
 			array('contact_address, contact_company, contact_gender,contact_notes', 'length', 'max'=>255),
                         array('contact_birthday', 'length', 'max'=>12),
@@ -68,7 +69,7 @@ class Contact extends CActiveRecord
 			'contact_id' => 'Contact',
 			'category_id' => 'Category',
 			'contact_ho' => 'Họ',
-			'contact_ten' => 'Tên',
+			'contact_ten' => 'Họ và Tên',
 			'contact_phone' => 'Số điện thoại',
 			'contact_birthday' => 'Ngày sinh',
 			'contact_gender' => 'Giới tính',

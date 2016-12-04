@@ -328,6 +328,7 @@
                 }
                 else{
                     alert('Cập nhật thất bại');
+                    location.reload();
                 }
             }
         });
